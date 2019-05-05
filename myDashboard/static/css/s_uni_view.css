@@ -1,24 +1,22 @@
-h3 {
-    color: blue;
-}
 
 body {
     width: 100%;
-    background-color: red;
+    background-color: lightcyan;
     margin-left: 15px;
-    display: flow;
+    display: block;
+}
+p {
+    display: inline-block;
+    width: 10%;
 }
 
-div {
-    margin-top: 15px;
-    margin-left: 90px;
+#unilink {
+    margin-top: 3px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom:3px;
     background-color: lightblue;
-    box-sizing: border-box;
-    width: 200px;
-    height: 200px;
-
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    border: 1px dotted #000000;
+    width: 100%;
+    display: flow;
 }
