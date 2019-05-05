@@ -1,0 +1,6 @@
+Django==2.2.1
+freeze==1.0.10
+mysqlclient==1.4.2.post1
+pytz==2019.1
+six==1.12.0
+sqlparse==0.3.0

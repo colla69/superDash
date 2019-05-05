@@ -3,13 +3,14 @@
 body {
     width: 100%;
     background-color: lightcyan;
-
+    background-image: url("https://b.stripecdn.com/site-srv/assets/img/blog/posts/connect-frontend/header-background-grid-41d00e90a9df6e3a3b18a210d8f2b81667dec217.png");
+    /*opacity: .4;*/
 }
 p {
     display: inline-block;
     width: 10%;
 }
-div {
+#unilink {
     margin-top: 3px;
     padding-left: 15px;
     padding-top: 5px;
@@ -18,9 +19,10 @@ div {
     background-color: lightblue;
     width: 100%;
     display: flow;
+    opacity: .85;
 }
 
-button {
+#app {
     margin-top: 15px;
     margin-left: 15px;
     background-color: lightblue;
