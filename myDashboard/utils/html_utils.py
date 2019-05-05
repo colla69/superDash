@@ -1,8 +1,8 @@
 
 def existinglink(link, caption):
-    if link != "":
+    if not link is None:
         return """
-                <p><a href="{{ """+link+""" }}" target="_blank">
+                <p><a href=" """+link+""" " target="_blank">
                     """+caption+"""
                 </a></p>
         """

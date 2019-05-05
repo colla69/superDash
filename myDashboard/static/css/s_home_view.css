@@ -1,17 +1,19 @@
 
 
 body {
-    width: 100%;
-    background-color: lightcyan;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    background: linear-gradient(to bottom, rgb(33, 147, 176), rgb(109, 213, 237));
     margin-left: 15px;
-    display: flow;
+    margin-right: 15px;
+    display: inline-block;
 }
 
 #app {
     margin-top: 15px;
     margin-left: 15px;
     background-color: lightblue;
-    opacity: .85;
+    opacity: .75;
     box-sizing: border-box;
     width: 200px;
     height: 200px;
@@ -24,5 +26,9 @@ body {
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     border: 1px dotted #000000;
+
+    -webkit-box-shadow: 0px 1px 17px 4px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 1px 17px 4px rgba(0,0,0,0.45);
+    box-shadow: 0px 1px 17px 4px rgba(0,0,0,0.45);
 }
 

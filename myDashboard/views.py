@@ -14,7 +14,6 @@ def uni_view(request, *args, **kwargs):
     links = UniLink.objects.all()
     ctx = {
         "VLs": links,
-        "existinglink": existinglink
     }
     return render(request, "uniPanel.html", ctx)
 

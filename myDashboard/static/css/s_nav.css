@@ -1,11 +1,28 @@
 
 
 
-nav {
-    margin-left: 15px;
-    display: inline-block;
-    width: 100%;
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    /*text-align: center;*/
 }
-a {
-    width: 50%;
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li a {
+    text-decoration: none;
+    font-size: xx-large;
+    display: block;
+    color: #FFF;
+    text-align: center;
+}
+#nav ul li a:hover {
+  color: black;
+}
+#admin {
+    float : right;
+    color: #559;
 }
