@@ -1,0 +1,24 @@
+h3 {
+    color: blue;
+}
+
+body {
+    width: 100%;
+    background-color: red;
+    margin-left: 15px;
+    display: flow;
+}
+
+div {
+    margin-top: 15px;
+    margin-left: 90px;
+    background-color: lightblue;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border: 1px dotted #000000;
+}

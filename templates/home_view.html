@@ -2,17 +2,14 @@
 <!doctype html>
 <html>
  <head>
-    <meta charset="UTF-8">
-    <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;apptheme&quot;}">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="{% static 'css/s_home_view.css' %}">
+    <title>myDashboard</title>
  </head>
  <body>
-    <h1>homeView</h1>
-    <h4> welcome {{ request.user }}</h4>
-    <br>
-    autentication : {{ request.user.is_authenticated }}
+
+    {% include 'navbar.html' %}
+
+    {% block content %}
+    {% endblock %}
 
  </body>
 </html>
