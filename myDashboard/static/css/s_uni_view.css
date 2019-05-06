@@ -1,13 +1,6 @@
 
-body {
-    height: -webkit-fill-available;
-    width: -webkit-fill-available;
-    background: linear-gradient(to bottom, rgb(33, 147, 176), rgb(109, 213, 237));
-    margin-left: 15px;
-    margin-right: 15px;
-    display: block;
-}
-p {
+
+#unilink p {
     display: inline-block;
     width: 10%;
 }

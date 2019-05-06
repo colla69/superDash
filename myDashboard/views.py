@@ -7,7 +7,7 @@ def home_view(request, *args, **kwargs):
     ctx = {
         "apps": apps
     }
-    return render(request, "home_view.html", ctx)
+    return render(request, "appPanel.html", ctx)
 
 
 def uni_view(request, *args, **kwargs):
