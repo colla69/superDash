@@ -1,4 +1,12 @@
 Django==2.2.1
+<<<<<<< HEAD
 mysqlclient==1.4.2.post1
 pytz==2019.1
 sqlparse==0.3.0
+=======
+freeze==1.0.10
+mysqlclient==1.4.2.post1
+pytz==2019.1
+six==1.12.0
+sqlparse==0.3.0
+>>>>>>> aa54229c48f16f3c9e7f68d6d4cd84641314abb7
