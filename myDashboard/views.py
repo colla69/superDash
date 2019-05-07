@@ -4,6 +4,7 @@ import myDashboard.utils.algo_getter as algo
 import myDashboard.utils.rnvs_getter as rnvs
 import myDashboard.utils.onepiece_getter as op
 
+
 def home_view(request, *args, **kwargs):
     apps = DashApps.objects.all()
     ctx = {

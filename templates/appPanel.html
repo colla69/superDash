@@ -5,10 +5,21 @@
 {% endblock %}
 
 {% block content %}
+    <h2> Utils </h2>
     {%  for app in apps %}
-    <a href="{{ app.link }}" target="_blank" style="display: inline-block;">
-        <!-- <button style="background-image: url({{ app.img_link }});" value="s"> -->
+        {% if app.type == "util" %}
+        <a href="{{ app.link }}" style="display: inline-block;">
         <div id="app">{{ app.name }}</div>
-    </a>
+        </a>
+        {% endif %}
+    {% endfor %}
+    <br><br>
+    <h2> Apps </h2>
+    {%  for app in apps %}
+        {% if app.type == "app" %}
+        <a href="{{ app.link }}" target="_blank" style="display: inline-block;">
+        <div id="app">{{ app.name }}</div>
+        </a>
+        {% endif %}
     {% endfor %}
 {% endblock %}
