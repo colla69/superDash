@@ -34,5 +34,4 @@ def onepiece_view(request, *args, **kwargs):
     ctx = {
         "chapters": list(chapters.items()),
     }
-    print(ctx)
     return render(request, "mangaPanel.html", ctx)

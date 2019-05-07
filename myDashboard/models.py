@@ -4,11 +4,18 @@ from django.db import models
 
 
 # dash_apps
-
+APP ="app"
+UTIL = "util"
+APP_TYPES = (
+    (APP, 'app'),
+    (UTIL, 'util'),
+)
 class DashApps(models.Model):
+
     name = models.TextField(db_column='Name', max_length=100)  # Field name made lowercase.
     link = models.CharField(max_length=500, blank=True, null=True)
     img_link = models.TextField(max_length=500, blank=True, null=True)
+    type = models.CharField(db_column='Type', max_length=20, choices=APP_TYPES, default=APP)
 
     def __str__(self):
         return self.name
@@ -17,6 +24,8 @@ class DashApps(models.Model):
         managed = False
         db_table = 'myDashboard_dash_apps'
 
+
+##uni links
 class UniLink(models.Model):
     name = models.TextField(db_column='Name', max_length=100)  # Field name made lowercase.
     link = models.CharField(max_length=500, blank=True, null=True)
