@@ -1,19 +1,44 @@
 from lxml import html
 import requests
-from html.parser import HTMLParser
+from bs4 import BeautifulSoup
 
 
-class MyHTMLParser(HTMLParser):
-    def handle_starttag(self, tag, attrs):
-        print("Encountered a start tag:", tag)
+# uebungen
+def get_uebungen():
+    page = requests.get('http://www.dbs.ifi.lmu.de/cms/studium_lehre/lehre_bachelor/algodat19/index.html')
+    soup = BeautifulSoup(page.text, "html.parser")
+    links = soup.find_all("td")
+    res = {}
+    lastname = ""
+    for link in links:
 
-    def handle_data(self, data):
-        if data != "":
-            print("Encountered some data  :", data)
+        for a in link.find_all("a"):
+            try:
+                if a.text == "":
+                    continue
+                elif a.text == "Lsg":
+                    res[lastname+"_"+a.text] = a["href"]
+                else:
+                    res[a.text] = a["href"]
+                lastname = a.text
+            except:
+                res[a.text] = ""
+            print(a.text+" "+a["href"])
+    return res
 
 
-page = requests.get('http://www.dbs.ifi.lmu.de/cms/studium_lehre/lehre_bachelor/algodat19/index.html')
-tree = html.fromstring(page.content)
-
-parser = MyHTMLParser()
-parser.feed(page.text)
+# vorlesungen
+def get_vorlesungen():
+    page = requests.get('http://www.dbs.ifi.lmu.de/cms/studium_lehre/lehre_bachelor/algodat19/index.html')
+    soup = BeautifulSoup(page.text, "html.parser")
+    links = soup.find_all("p")
+    res = {}
+    for link in links:
+        if "Kapitel" in link.text:
+            try:
+                for a in link.find_all("a"):
+                    res[link.text] = link.find_all("a")["href"]
+            except:
+                res[link.text] = ""
+            # print(link)
+    return res
