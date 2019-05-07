@@ -46,7 +46,7 @@ def get_vorlesungen():
             try:
                 for li in link.find_all("li"):
                     for a in li.find_all("a"):
-                        res[li.text] = home+a["href"]
+                        res[li.text.strip("[pptx] [pdf]")] = home+a["href"]
             except:
                 res[link.text] = ""
             # print(link)

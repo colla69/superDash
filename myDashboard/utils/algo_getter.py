@@ -23,7 +23,7 @@ def get_uebungen():
                 lastname = a.text
             except:
                 res[a.text] = ""
-            print(a.text+" "+a["href"])
+            #print(a.text+" "+a["href"])
     return res
 
 

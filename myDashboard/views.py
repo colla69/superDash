@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import DashApps, UniLink
 import myDashboard.utils.algo_getter as algo
+import myDashboard.utils.rnvs_getter as rnvs
 
 def home_view(request, *args, **kwargs):
     apps = DashApps.objects.all()
@@ -12,12 +13,12 @@ def home_view(request, *args, **kwargs):
 
 def uni_view(request, *args, **kwargs):
     links = UniLink.objects.all()
-    ub = algo.get_uebungen()
-    cap = algo.get_vorlesungen()
     data = {}
     for link in links:
         if link.name == "ALGO":
-            data[link.name] = [link, ub, cap]
+            data[link.name] = [link, algo.get_uebungen(), algo.get_vorlesungen()]
+        elif link.name == "RNVS":
+            data[link.name] = [link,  rnvs.get_uebungen(), rnvs.get_vorlesungen()]
         else:
             data[link.name] = [link, "", ""]
     ctx = {
