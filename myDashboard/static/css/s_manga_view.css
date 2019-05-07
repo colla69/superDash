@@ -1,0 +1,19 @@
+
+#mangas{
+    width: auto;
+}
+
+#mangalink {
+    background-color: rgba(122,192,255,0.7);
+    padding-left: 20px;
+
+    box-sizing: border-box;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border: 1px none #000000;
+
+}
+#mangalink li a {
+    color: darkblue;
+}

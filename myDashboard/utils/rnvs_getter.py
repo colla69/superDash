@@ -30,7 +30,7 @@ def get_uebungen():
                     ix += 1
                     res["Übung"+str(ix)] = home+a["href"]
 
-    return res
+    return sorted(res, reverse=False)
 
 
 

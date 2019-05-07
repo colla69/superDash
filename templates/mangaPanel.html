@@ -1,0 +1,22 @@
+{% extends "base_view.html" %}
+{% load static %}
+{% block title %}
+    <title>OnePiece</title>
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/s_base_view.css' %}">
+    <link rel="stylesheet" href="{% static 'css/s_manga_view.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div id="mangas">
+    {% for key,val in chapters reversed %}
+        <ul id="mangalink">
+            <li>
+                <a href="{{ val }}">{{ key }}</a>
+            </li>
+        </ul>
+    {% endfor %}
+    </div>
+{% endblock %}

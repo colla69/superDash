@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .models import DashApps, UniLink
 import myDashboard.utils.algo_getter as algo
 import myDashboard.utils.rnvs_getter as rnvs
+import myDashboard.utils.onepiece_getter as op
 
 def home_view(request, *args, **kwargs):
     apps = DashApps.objects.all()
@@ -26,3 +27,12 @@ def uni_view(request, *args, **kwargs):
     }
     # print (data)
     return render(request, "uniPanel.html", ctx)
+
+
+def onepiece_view(request, *args, **kwargs):
+    chapters = op.get_onepieceManga()
+    ctx = {
+        "chapters": list(chapters.items()),
+    }
+    print(ctx)
+    return render(request, "mangaPanel.html", ctx)

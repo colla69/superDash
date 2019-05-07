@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac397a43-3764-4df1-8800-af90ad454092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myDashboard/utils/rnvs_getter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myDashboard/static/css/s_manga_view.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myDashboard/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myDashboard/utils/onepiece_getter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myDashboard/utils/promo_getter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mangaPanel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myDashboard/static/css/s_uni_view.css" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/static/css/s_uni_view.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myDashboard/utils/algo_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/algo_getter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/static/css/s_base_view.css" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/static/css/s_base_view.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/rnvs_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/rnvs_getter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myDashboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superDash/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/superDash/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            <state relative-caret-position="475">
+              <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -34,35 +39,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/uniPanel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="582">
               <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_uni_view.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base_view.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myDashboard/utils/rnvs_getter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+            <state relative-caret-position="458">
+              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -71,10 +58,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superDash/psw.py">
+        <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_uni_view.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myDashboard/utils/promo_getter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,17 +81,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_base_view.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/navbar.html">
+        <entry file="file://$PROJECT_DIR$/templates/mangaPanel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_manga_view.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myDashboard/utils/onepiece_getter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding>
+                <element signature="e#1#16#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,6 +138,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>kap</find>
+      <find>gba</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,7 +156,6 @@
         <option value="$PROJECT_DIR$/myDashboard/utils/html_utils.py" />
         <option value="$PROJECT_DIR$/templates/home_view.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/superDash/urls.py" />
         <option value="$PROJECT_DIR$/templates/navbar.html" />
         <option value="$PROJECT_DIR$/myDashboard/static/css/s_nav.css" />
         <option value="$PROJECT_DIR$/myDashboard/static/css/s_home_view.css" />
@@ -144,19 +164,26 @@
         <option value="$PROJECT_DIR$/templates/uniPanel.html" />
         <option value="$PROJECT_DIR$/myDashboard/static/css/s_uni_view.css" />
         <option value="$PROJECT_DIR$/superDash/psw.py" />
-        <option value="$PROJECT_DIR$/myDashboard/views.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/algo_getter.py" />
+        <option value="$PROJECT_DIR$/myDashboard/utils/promo_getter.py" />
+        <option value="$PROJECT_DIR$/myDashboard/static/css/get_onepiece.py" />
+        <option value="$PROJECT_DIR$/myDashboard/utils/onepiece_getter.py" />
+        <option value="$PROJECT_DIR$/superDash/urls.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/rnvs_getter.py" />
+        <option value="$PROJECT_DIR$/myDashboard/static/css/s_base_view.css" />
+        <option value="$PROJECT_DIR$/myDashboard/static/css/s_manga_view.css" />
+        <option value="$PROJECT_DIR$/templates/mangaPanel.html" />
+        <option value="$PROJECT_DIR$/myDashboard/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="292" />
-    <option name="y" value="306" />
-    <option name="width" value="962" />
-    <option name="height" value="694" />
+    <option name="width" value="1920" />
+    <option name="height" value="524" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -213,20 +240,21 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myDashboard/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myDashboard/static/css" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/myDashboard/utils" />
-      <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/myDashboard/static/css" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/myDashboard/utils" />
       <recent name="$PROJECT_DIR$/myDashboard/migrations" />
       <recent name="$PROJECT_DIR$/myDashboard" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myDashboard/utils" />
       <recent name="$PROJECT_DIR$/myDashboard/migrations" />
     </key>
   </component>
@@ -242,8 +270,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rnvs_getter">
-    <configuration name="rnvs_getter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.onepiece_getter">
+    <configuration name="onepiece_getter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="superDash" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,7 +284,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myDashboard/utils/rnvs_getter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myDashboard/utils/onepiece_getter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="promo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="superDash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myDashboard/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myDashboard/utils/promo_getter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,11 +341,13 @@
     </configuration>
     <list>
       <item itemvalue="Django server.superDash" />
-      <item itemvalue="Python.rnvs_getter" />
+      <item itemvalue="Python.promo" />
+      <item itemvalue="Python.onepiece_getter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rnvs_getter" />
+        <item itemvalue="Python.onepiece_getter" />
+        <item itemvalue="Python.promo" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +364,7 @@
       <workItem from="1556908471690" duration="5747000" />
       <workItem from="1556964836815" duration="12476000" />
       <workItem from="1557062223429" duration="19589000" />
-      <workItem from="1557128632148" duration="24975000" />
+      <workItem from="1557128632148" duration="37273000" />
     </task>
     <task id="LOCAL-00001" summary="better css + new structure">
       <created>1557077700836</created>
@@ -356,11 +408,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557213242199</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Algo Crawler korrigiert + rnvs crawler">
+      <created>1557224218345</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557224218345</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Algo Crawler korrigiert + rnvs crawler">
+      <created>1557224597862</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557224597862</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62787000" />
+    <option name="totallyTimeSpent" value="75085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1052" extended-state="6" />
@@ -398,7 +464,8 @@
     <MESSAGE value="merge" />
     <MESSAGE value="even better views" />
     <MESSAGE value="Algo Crawler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algo Crawler" />
+    <MESSAGE value="Algo Crawler korrigiert + rnvs crawler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algo Crawler korrigiert + rnvs crawler" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -417,7 +484,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/superDash$algo_getter.coverage" NAME="rnvs_getter Coverage Results" MODIFIED="1557224161278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myDashboard/utils" />
+    <SUITE FILE_PATH="coverage/superDash$algo_getter.coverage" NAME="promo Coverage Results" MODIFIED="1557232656142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myDashboard/utils" />
+    <SUITE FILE_PATH="coverage/superDash$onepiece_getter.coverage" NAME="onepiece_getter Coverage Results" MODIFIED="1557234724299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myDashboard/utils" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -502,16 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/superDash/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/template/defaulttags.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -526,20 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_base_view.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_uni_view.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/urllib3/connectionpool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -547,37 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/superDash/psw.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/utils/algo_getter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,19 +612,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/uniPanel.html">
+    <entry file="file://$PROJECT_DIR$/myDashboard/utils/algo_getter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="119">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superDash/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superDash/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/utils/promo_getter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myDashboard/utils/rnvs_getter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+        <state relative-caret-position="458">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_uni_view.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_base_view.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/uniPanel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/utils/onepiece_getter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#1#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_manga_view.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mangaPanel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

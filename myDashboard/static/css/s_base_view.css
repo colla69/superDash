@@ -14,7 +14,6 @@ body {
     margin-left: 15px;
     background-color: lightblue;
     opacity: .75;
-    box-sizing: border-box;
     width: 200px;
     height: 200px;
 
@@ -22,6 +21,7 @@ body {
     font-size: x-large;
     text-align: center;
 
+    box-sizing: border-box;
     border-radius: 15px;
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
