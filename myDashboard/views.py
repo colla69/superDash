@@ -2,7 +2,6 @@ from django.shortcuts import render
 from .models import DashApps, UniLink
 import myDashboard.utils.algo_getter as algo
 
-
 def home_view(request, *args, **kwargs):
     apps = DashApps.objects.all()
     ctx = {
@@ -24,5 +23,5 @@ def uni_view(request, *args, **kwargs):
     ctx = {
         "VLs": data,
     }
-    print (data)
+    # print (data)
     return render(request, "uniPanel.html", ctx)

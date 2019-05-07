@@ -37,7 +37,7 @@ def get_vorlesungen():
         if "Kapitel" in link.text:
             try:
                 for a in link.find_all("a"):
-                    res[link.text] = link.find_all("a")["href"]
+                    res[link.text] = a["href"]
             except:
                 res[link.text] = ""
             # print(link)
