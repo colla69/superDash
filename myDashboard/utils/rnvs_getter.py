@@ -30,9 +30,7 @@ def get_uebungen():
                     ix += 1
                     res["Übung"+str(ix)] = home+a["href"]
 
-    return sorted(res, reverse=False)
-
-
+    return res
 
 # vorlesungen
 def get_vorlesungen():
@@ -51,5 +49,3 @@ def get_vorlesungen():
                 res[link.text] = ""
             # print(link)
     return res
-
-
