@@ -9,7 +9,7 @@
     {%  for app in apps %}
         {% if app.type == "util" %}
         <a href="{{ app.link }}" id="app" style="display: inline-block;">
-            <img src="{{ app.img_link }}" style="max-height: 230px;">
+            <img src="{{ app.img_link }}" id="logo">
             <h4>{{ app.name }}</h4>
         </a>
         {% endif %}
@@ -19,7 +19,17 @@
     {%  for app in apps %}
         {% if app.type == "app" %}
          <a href="{{ app.link }}" id="app" style="display: inline-block;" target="_blank">
-            <img src="{{ app.img_link }}" style="max-height: 230px;">
+            <img src="{{ app.img_link }}" id="logo">
+            <h4>{{ app.name }}</h4>
+        </a>
+        {% endif %}
+    {% endfor %}
+    <br><br>
+    <h2> TV </h2>
+    {%  for app in apps %}
+        {% if app.type == "tv" %}
+         <a href="{{ app.link }}" id="app" style="display: inline-block;" target="_blank">
+            <img src="{{ app.img_link }}" id="logo">
             <h4>{{ app.name }}</h4>
         </a>
         {% endif %}

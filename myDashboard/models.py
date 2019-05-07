@@ -6,9 +6,11 @@ from django.db import models
 # dash_apps
 APP ="app"
 UTIL = "util"
+TV = "tv"
 APP_TYPES = (
     (APP, 'app'),
     (UTIL, 'util'),
+    (TV, 'tv'),
 )
 class DashApps(models.Model):
 
