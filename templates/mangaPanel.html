@@ -11,11 +11,20 @@
 
 {% block content %}
     <div id="mangas">
-    {% for key,val in chapters reversed %}
+    {% for chap in chapters reversed %}
         <ul id="mangalink">
+            <form action="/opPost/" method="post">{% csrf_token %}
             <li>
-                <a href="{{ val }}" target="_blank">{{ key }}</a>
+                <a href="{{ chap.0 }}" target="_blank">{{ chap.1 }}</a>
+                <input type="hidden" name="link" value="{{ chap.0 }}">
+                <input type="hidden" name="done" value="True">
+                {% if chap.2 == "Unread" %}
+                    <button type="submit" >{{ chap.2 }}</button>
+                {% else %}
+                    <button type="submit" disabled >{{ chap.2 }}</button>
+                {% endif %}
             </li>
+            </form>
         </ul>
     {% endfor %}
     </div>

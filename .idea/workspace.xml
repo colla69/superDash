@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac397a43-3764-4df1-8800-af90ad454092" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/myDashboard/utils/rnvs_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/rnvs_getter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myDashboard/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myDashboard/migrations/0004_logSeen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/static/css/s_manga_view.css" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/static/css/s_manga_view.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/onepiece_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/onepiece_getter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myDashboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/appPanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/appPanel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/uniPanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/uniPanel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superDash/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/superDash/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mangaPanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mangaPanel.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="373">
+              <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -30,15 +36,99 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/superDash/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+              <folding>
+                <element signature="e#633#665#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/mangaPanel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_manga_view.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/template/backends/django.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1">
+              <caret line="101" column="31" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myDashboard/utils/onepiece_getter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding>
+                <element signature="e#1#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myDashboard/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myDashboard/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/appPanel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#243#273#0#HTML" expanded="true" />
                 <element signature="e#648#678#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myDashboard/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -67,7 +157,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/myDashboard/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/myDashboard/migrations/0002_unilinks.py" />
-        <option value="$PROJECT_DIR$/myDashboard/admin.py" />
         <option value="$PROJECT_DIR$/superDash/settings.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/html_utils.py" />
         <option value="$PROJECT_DIR$/templates/home_view.html" />
@@ -81,25 +170,28 @@
         <option value="$PROJECT_DIR$/myDashboard/utils/algo_getter.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/promo_getter.py" />
         <option value="$PROJECT_DIR$/myDashboard/static/css/get_onepiece.py" />
-        <option value="$PROJECT_DIR$/superDash/urls.py" />
         <option value="$PROJECT_DIR$/myDashboard/static/css/s_base_view.css" />
-        <option value="$PROJECT_DIR$/myDashboard/static/css/s_manga_view.css" />
-        <option value="$PROJECT_DIR$/templates/mangaPanel.html" />
         <option value="$PROJECT_DIR$/myDashboard/migrations/0002_updateApps.py" />
         <option value="$PROJECT_DIR$/myDashboard/migrations/0003_updateApps.py" />
-        <option value="$PROJECT_DIR$/myDashboard/utils/onepiece_getter.py" />
-        <option value="$PROJECT_DIR$/myDashboard/models.py" />
         <option value="$PROJECT_DIR$/templates/uniPanel.html" />
         <option value="$PROJECT_DIR$/myDashboard/utils/rnvs_getter.py" />
-        <option value="$PROJECT_DIR$/myDashboard/views.py" />
         <option value="$PROJECT_DIR$/templates/appPanel.html" />
+        <option value="$PROJECT_DIR$/myDashboard/migrations/0004_logSeen.py" />
+        <option value="$PROJECT_DIR$/myDashboard/admin.py" />
+        <option value="$PROJECT_DIR$/myDashboard/utils/onepiece_getter.py" />
+        <option value="$PROJECT_DIR$/myDashboard/models.py" />
+        <option value="$PROJECT_DIR$/myDashboard/forms.py" />
+        <option value="$PROJECT_DIR$/superDash/urls.py" />
+        <option value="$PROJECT_DIR$/myDashboard/views.py" />
+        <option value="$PROJECT_DIR$/templates/mangaPanel.html" />
+        <option value="$PROJECT_DIR$/myDashboard/static/css/s_manga_view.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="956" />
     <option name="width" value="964" />
-    <option name="height" value="1048" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -126,7 +218,14 @@
               <item name="superDash" type="b2602c69:ProjectViewProjectNode" />
               <item name="superDash" type="462c0819:PsiDirectoryNode" />
               <item name="myDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="superDash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="superDash" type="462c0819:PsiDirectoryNode" />
+              <item name="myDashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="superDash" type="b2602c69:ProjectViewProjectNode" />
@@ -301,7 +400,7 @@
       <workItem from="1556908471690" duration="5747000" />
       <workItem from="1556964836815" duration="12476000" />
       <workItem from="1557062223429" duration="19589000" />
-      <workItem from="1557128632148" duration="40879000" />
+      <workItem from="1557128632148" duration="56504000" />
     </task>
     <task id="LOCAL-00001" summary="better css + new structure">
       <created>1557077700836</created>
@@ -373,11 +472,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557238448920</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=" new layout">
+      <created>1557240666253</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557240666253</updated>
+    </task>
+    <task id="LOCAL-00012" summary="korr rnvs_getter">
+      <created>1557240681807</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557240681807</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78691000" />
+    <option name="totallyTimeSpent" value="94316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1052" extended-state="6" />
@@ -399,7 +512,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5037353" side_tool="true" weight="0.32934782" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49839914" weight="0.32934782" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32934782" />
-      <window_info anchor="right" x="0" y="0" width="191" height="852" id="Documentation" order="0" side_tool="true" weight="0.6248666" />
+      <window_info anchor="right" x="0" y="0" width="191" height="852" id="Documentation" order="0" side_tool="true" weight="0.39381003" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -419,7 +532,9 @@
     <MESSAGE value="Algo Crawler korrigiert + rnvs crawler" />
     <MESSAGE value="mangaView + onepiececrawler" />
     <MESSAGE value=" new field &quot;Type&quot; for appview" />
-    <option name="LAST_COMMIT_MESSAGE" value=" new field &quot;Type&quot; for appview" />
+    <MESSAGE value=" new layout" />
+    <MESSAGE value="korr rnvs_getter" />
+    <option name="LAST_COMMIT_MESSAGE" value="korr rnvs_getter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -440,7 +555,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/superDash$algo_getter.coverage" NAME="promo Coverage Results" MODIFIED="1557232656142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myDashboard/utils" />
     <SUITE FILE_PATH="coverage/superDash$onepiece_getter.coverage" NAME="onepiece_getter Coverage Results" MODIFIED="1557237954706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myDashboard/utils" />
-    <SUITE FILE_PATH="coverage/superDash$rnvs_getter.coverage" NAME="rnvs_getter Coverage Results" MODIFIED="1557240304888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myDashboard/utils" />
+    <SUITE FILE_PATH="coverage/superDash$rnvs_getter.coverage" NAME="rnvs_getter Coverage Results" MODIFIED="1557250260753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myDashboard/utils" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -459,16 +574,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myDashboard/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/superDash/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -546,16 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/superDash/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/superDash/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -600,27 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/utils/onepiece_getter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#1#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myDashboard/migrations/0002_unilinks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -646,43 +724,111 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myDashboard/migrations/0003_updateApps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="11" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mangaPanel.html">
+    <entry file="file://$PROJECT_DIR$/myDashboard/migrations/0004_logSeen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_manga_view.css">
+    <entry file="file://$PROJECT_DIR$/templates/appPanel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#243#273#0#HTML" expanded="true" />
+            <element signature="e#648#678#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/2047624581/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="2816" column="8" selection-start-line="2816" selection-start-column="8" selection-end-line="2816" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/utils/onepiece_getter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#1#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/template/backends/django.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="101" column="31" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="373">
+          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/appPanel.html">
+    <entry file="file://$PROJECT_DIR$/superDash/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="425">
+          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
           <folding>
-            <element signature="e#243#273#0#HTML" expanded="true" />
-            <element signature="e#648#678#0#HTML" expanded="true" />
+            <element signature="e#633#665#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mangaPanel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_manga_view.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>

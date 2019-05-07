@@ -12,8 +12,8 @@ def get_onepieceManga():
         try:
             if "One Piece" in link.text:
                 a = link.find("a")
-                res[link.text[2:]] = url+a["href"]
-                #print(link.text)
+                res[ url+a["href"]] = link.text[2:]
+                # print(link.text)
         except:
             continue
     return res

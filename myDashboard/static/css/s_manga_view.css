@@ -14,6 +14,21 @@
     border: 1px none #000000;
 
 }
+#mangalink li {
+    display: block;
+}
 #mangalink li a {
     color: darkblue;
+}
+#mangalink li button {
+    float: right;
+    margin-right: 4px;
+    margin-top: 1px;
+    height: 21px;
+    text-align: center;
+
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border: 1px none #000000;
 }

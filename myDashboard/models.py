@@ -13,7 +13,7 @@ APP_TYPES = (
 class DashApps(models.Model):
 
     name = models.TextField(db_column='Name', max_length=100)  # Field name made lowercase.
-    link = models.CharField(max_length=500, blank=True, null=True)
+    link = models.TextField(max_length=500, blank=True, null=True)
     img_link = models.TextField(max_length=500, blank=True, null=True)
     type = models.CharField(db_column='Type', max_length=20, choices=APP_TYPES, default=APP)
 
@@ -27,8 +27,8 @@ class DashApps(models.Model):
 
 ##uni links
 class UniLink(models.Model):
-    name = models.TextField(db_column='Name', max_length=100)  # Field name made lowercase.
-    link = models.CharField(max_length=500, blank=True, null=True)
+    name = models.TextField(db_column='Name', max_length=100)
+    link = models.TextField(max_length=500, blank=True, null=True)
     homepage = models.TextField(max_length=500, blank=True, null=True)
     uebungen = models.TextField(max_length=500, blank=True, null=True)
     cloudlink = models.TextField(max_length=500, blank=True, null=True)
@@ -40,3 +40,15 @@ class UniLink(models.Model):
         managed = False
         db_table = 'myDashboard_uni_links'
 
+
+# log seen links
+class DoneLinksLog(models.Model):
+    link = models.TextField(max_length=500)
+    done = models.BooleanField()
+
+    def __str__(self):
+        return self.link
+
+    class Meta:
+        managed = False
+        db_table = 'myDashboard_donelinks_log'
