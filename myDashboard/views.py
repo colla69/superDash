@@ -3,7 +3,9 @@ from .models import DashApps, UniLink, DoneLinksLog
 import myDashboard.utils.algo_getter as algo
 import myDashboard.utils.rnvs_getter as rnvs
 import myDashboard.utils.onepiece_getter as op
+import myDashboard.utils.onepunchman_getter as opm
 from myDashboard.forms import DoneReading
+
 
 
 def home_view(request, *args, **kwargs):
@@ -32,28 +34,48 @@ def uni_view(request, *args, **kwargs):
 
 
 def onepiece_view(request, *args, **kwargs):
-    read_chap = get_read_chapters()
+    read_chap = get_read_chapters(op.get_onepieceManga())
     ctx = {
         "chapters": read_chap,
     }
-    return render(request, "mangaPanel.html", ctx)
+    return render(request, "op_view.html", ctx)
 
 
 def post_seen_op(request):
     form = DoneReading(request.POST or None)
     if form.is_valid():
         form.save()
-    read_chap = get_read_chapters()
+    read_chap = get_read_chapters(op.get_onepieceManga())
     context = {
         'form': form,
         "chapters": read_chap,
     }
-    return render(request, 'mangaPanel.html', context)
+    return render(request, 'op_view.html', context)
 
 
-def get_read_chapters():
+def onepunchman_view(request, *args, **kwargs):
+    read_chap = get_read_chapters(opm.get_oneounchManga())
+    ctx = {
+        "chapters": read_chap,
+    }
+    return render(request, "opm_view.html", ctx)
+
+
+def post_seen_opm(request):
+    form = DoneReading(request.POST or None)
+    if form.is_valid():
+        form.save()
+    read_chap = get_read_chapters(opm.get_oneounchManga())
+    context = {
+        'form': form,
+        "chapters": read_chap,
+    }
+    return render(request, 'opm_view.html', context)
+
+
+def get_read_chapters(chpts):
     chapters = []
-    chapters = op.get_onepieceManga()
+    chapters = chpts
     read_chap = []
     gelesen = DoneLinksLog.objects.all()
     ids = set(done.link for done in gelesen)

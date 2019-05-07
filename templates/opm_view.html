@@ -1,0 +1,5 @@
+{% extends "mangaPanel.html"%}
+
+{%  block action %}
+    <form action="/opmPost/" method="post">{% csrf_token %}
+{% endblock %}

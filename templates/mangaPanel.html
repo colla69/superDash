@@ -13,7 +13,7 @@
     <div id="mangas">
     {% for chap in chapters reversed %}
         <ul id="mangalink">
-            <form action="/opPost/" method="post">{% csrf_token %}
+            {% block action %}<form action="/opPost/" method="post">{% csrf_token %}{% endblock %}
             <li>
                 <a href="{{ chap.0 }}" target="_blank">{{ chap.1 }}</a>
                 <input type="hidden" name="link" value="{{ chap.0 }}">
