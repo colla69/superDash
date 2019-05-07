@@ -4,6 +4,7 @@ import myDashboard.utils.algo_getter as algo
 import myDashboard.utils.rnvs_getter as rnvs
 import myDashboard.utils.onepiece_getter as op
 import myDashboard.utils.onepunchman_getter as opm
+import myDashboard.utils.bokunoheroacademia_getter as bnha
 from myDashboard.forms import DoneReading
 
 
@@ -71,6 +72,27 @@ def post_seen_opm(request):
         "chapters": read_chap,
     }
     return render(request, 'opm_view.html', context)
+
+
+def bnha_view(request, *args, **kwargs):
+    read_chap = get_read_chapters(bnha.get_bokunoheroacademiaManga())
+    print(read_chap)
+    ctx = {
+        "chapters": read_chap,
+    }
+    return render(request, "bnha_view.html", ctx)
+
+
+def post_seen_bnha(request):
+    form = DoneReading(request.POST or None)
+    if form.is_valid():
+        form.save()
+    read_chap = get_read_chapters(bnha.get_bokunoheroacademiaManga())
+    context = {
+        'form': form,
+        "chapters": read_chap,
+    }
+    return render(request, 'bnha_view.html', context)
 
 
 def get_read_chapters(chpts):

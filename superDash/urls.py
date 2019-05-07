@@ -15,7 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from myDashboard.views import home_view, uni_view, onepiece_view, post_seen_op, onepunchman_view, post_seen_opm
+from myDashboard.views import home_view, uni_view, onepiece_view, \
+    post_seen_op, onepunchman_view, post_seen_opm, bnha_view, post_seen_bnha
 
 
 urlpatterns = [
@@ -26,7 +27,8 @@ urlpatterns = [
     path('opPost/', post_seen_op, name="opPost"),
     path('opm/', onepunchman_view, name="opm"),
     path('opmPost/', post_seen_opm, name="opmPost"),
-
+    path('bnha/', bnha_view, name="bnha"),
+    path('bnhaPost/', post_seen_bnha, name="bnhaPost"),
 ]
 
 
