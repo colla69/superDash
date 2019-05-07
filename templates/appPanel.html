@@ -1,15 +1,16 @@
 {% extends "base_view.html" %}
 {% load static %}
 {% block css %}
-    <link rel="stylesheet" href="{% static 'css/s_base_view.css' %}">
+    <link rel="stylesheet" href="{% static 'css/s_base_view.css' %}" xmlns="http://www.w3.org/1999/html">
 {% endblock %}
 
 {% block content %}
     <h2> Utils </h2>
     {%  for app in apps %}
         {% if app.type == "util" %}
-        <a href="{{ app.link }}" style="display: inline-block;">
-        <div id="app">{{ app.name }}</div>
+        <a href="{{ app.link }}" id="app" style="display: inline-block;">
+            <img src="{{ app.img_link }}" style="max-height: 230px;">
+            <h4>{{ app.name }}</h4>
         </a>
         {% endif %}
     {% endfor %}
@@ -17,8 +18,9 @@
     <h2> Apps </h2>
     {%  for app in apps %}
         {% if app.type == "app" %}
-        <a href="{{ app.link }}" target="_blank" style="display: inline-block;">
-        <div id="app">{{ app.name }}</div>
+         <a href="{{ app.link }}" id="app" style="display: inline-block;" target="_blank">
+            <img src="{{ app.img_link }}" style="max-height: 230px;">
+            <h4>{{ app.name }}</h4>
         </a>
         {% endif %}
     {% endfor %}
