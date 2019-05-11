@@ -19,4 +19,4 @@ def get_bokunoheroacademiaManga():
     return res
 
 
-print(get_bokunoheroacademiaManga())
+# print(get_bokunoheroacademiaManga())

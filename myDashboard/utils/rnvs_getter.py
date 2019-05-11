@@ -25,7 +25,7 @@ def get_uebungen():
         except:
             for a in l.find_all("a"):
                 if a.text == "" and \
-                        not ("Correction" in a["href"]) and\
+                        not ("Correction" in a["href"]) and \
                         (a["href"] != "#"):
                     ix += 1
                     res["Übung"+str(ix)] = home+a["href"]
