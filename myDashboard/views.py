@@ -1,14 +1,10 @@
 from django.shortcuts import render
-from .models import DashApps, UniLink, DoneLinksLog
-import myDashboard.utils.promo_getter as promo
-import myDashboard.utils.algo_getter as algo
-import myDashboard.utils.rnvs_getter as rnvs
+from .models import DashApps, DoneLinksLog
+import myDashboard.utils.uni.uni_data as uni
 import myDashboard.utils.onepiece_getter as op
 import myDashboard.utils.onepunchman_getter as opm
 import myDashboard.utils.bokunoheroacademia_getter as bnha
 from myDashboard.forms import DoneReading
-
-
 
 def home_view(request, *args, **kwargs):
     apps = DashApps.objects.all()
@@ -19,19 +15,7 @@ def home_view(request, *args, **kwargs):
 
 
 def uni_view(request, *args, **kwargs):
-    links = UniLink.objects.all()
-    data = {}
-
-    pub = promo.get_uebungen()
-    for link in links:
-        if link.name == "Promo":
-            data[link.name] = [link, promo.get_uebungen(), promo.get_vorlesungen()]
-        elif link.name == "ALGO":
-            data[link.name] = [link, algo.get_uebungen(), algo.get_vorlesungen()]
-        elif link.name == "RNVS":
-            data[link.name] = [link,  rnvs.get_uebungen(), rnvs.get_vorlesungen()]
-        else:
-            data[link.name] = [link, "", ""]
+    data = uni.get_uni_data()
     ctx = {
         "VLs": data,
     }
