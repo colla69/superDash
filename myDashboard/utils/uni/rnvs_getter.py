@@ -27,8 +27,8 @@ def get_uebungen():
                 if a.text == "" and \
                         not ("Correction" in a["href"]) and \
                         (a["href"] != "#"):
-                    ix += 1
                     res["Übung"+str(ix)] = home+a["href"]
+                    ix += 1
 
     return res
 

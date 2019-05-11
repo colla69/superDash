@@ -35,12 +35,12 @@ def get_uni_data():
     links = UniLink.objects.all()
 
     threads = []
-    threads.append(threading.Thread(target=get_algo_ub))
-    threads.append(threading.Thread(target=get_algo_v))
-    threads.append(threading.Thread(target=get_promo_ub))
-    threads.append(threading.Thread(target=get_promo_v))
     threads.append(threading.Thread(target=get_rnvs_ub))
     threads.append(threading.Thread(target=get_rnvs_v))
+    threads.append(threading.Thread(target=get_promo_ub))
+    threads.append(threading.Thread(target=get_promo_v))
+    threads.append(threading.Thread(target=get_algo_ub))
+    threads.append(threading.Thread(target=get_algo_v))
 
     # Start all threads
     for x in threads:
