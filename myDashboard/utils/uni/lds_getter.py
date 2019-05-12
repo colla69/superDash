@@ -26,4 +26,4 @@ def get_uebungen():
 def get_vorlesungen():
     pass
 
-get_uebungen()
+#get_uebungen()

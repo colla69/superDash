@@ -44,11 +44,12 @@ def get_vorlesungen():
     page = browser.get_current_page()
     res = {}
     for tr in page.find_all("tr"):
-        for ix, td in enumerate(tr.find_all("td")):
+        for ix, td in  enumerate(tr.find_all("td")):
             if ix == 1:
                 titel = td.text
             if ix == 3:
-                res[titel] = td.find("a")["href"]
+                if "kapitel" in titel.lower():
+                    res[titel] = td.find("a")["href"]
     return res
 
 
