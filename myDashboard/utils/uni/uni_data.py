@@ -29,15 +29,17 @@ def get_rnvs_ub():
 
 def get_rnvs_v():
     result_data["rnvs_v"] = rnvs.get_vorlesungen()
+    print(rnvs.get_vorlesungen())
 
 
 def get_uni_data():
     links = UniLink.objects.all()
 
     threads = [threading.Thread(target=get_rnvs_ub),
-               threading.Thread(target=get_rnvs_v),
                threading.Thread(target=get_promo_ub),
                threading.Thread(target=get_promo_v),
+
+               threading.Thread(target=get_rnvs_v),
                threading.Thread(target=get_algo_ub),
                threading.Thread(target=get_algo_v),
               ]
@@ -48,6 +50,7 @@ def get_uni_data():
     for x in threads:
         x.join()
 
+    print(result_data["rnvs_v"])
     data = {}
     for link in links:
         if link.name == "Promo":

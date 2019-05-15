@@ -37,15 +37,21 @@ def get_vorlesungen():
     home = "http://www.nm.ifi.lmu.de/teaching/Vorlesungen/2019ss/rn/"
     page = requests.post(home, verify=False)
     soup = BeautifulSoup(page.text, "html.parser")
-    links = soup.find_all("ol")
+    tables = soup.find_all("tbody")
     res = {}
-    for link in links:
-        if "Kapitel" in link.text:
+    for ix,t in enumerate(tables):
+        if ix == 1:
+            #if "Kapitel" in t.text:
             try:
-                for li in link.find_all("li"):
-                    for a in li.find_all("a"):
-                        res[li.text.strip("[pptx] [pdf]")] = home+a["href"]
+                for ubno, tr in enumerate(t.find_all("tr")):
+                    for ix2, cell in enumerate(tr.find_all("td")):
+                        if ix2 == 1:
+                            title = str(ubno+1)+" "+cell.text
+                        elif ix2 == 2:
+                            res[title] = home+cell.find_all("a")[1]["href"]
             except:
-                res[link.text] = ""
-            # print(link)
+                res[t.text] = ""
     return res
+
+# v = get_vorlesungen()
+# print(v)
