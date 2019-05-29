@@ -39,9 +39,9 @@ def get_vorlesungen():
     soup = BeautifulSoup(page.text, "html.parser")
     tables = soup.find_all("tbody")
     res = {}
+    print(len(tables))
     for ix,t in enumerate(tables):
-        if ix == 1:
-            #if "Kapitel" in t.text:
+        if ix == 0:
             try:
                 for ubno, tr in enumerate(t.find_all("tr")):
                     for ix2, cell in enumerate(tr.find_all("td")):
@@ -53,5 +53,6 @@ def get_vorlesungen():
                 res[t.text] = ""
     return res
 
-# v = get_vorlesungen()
-# print(v)
+
+#v = get_vorlesungen()
+#print(v)
