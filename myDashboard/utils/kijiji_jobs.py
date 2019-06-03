@@ -43,7 +43,7 @@ def get_kiji():
                          "description": description
                          }
     print(res)
-    json_save(res, data_path)
+    #json_save(res, data_path)
     print("done\n")
 
 #print(res)
