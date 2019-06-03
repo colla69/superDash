@@ -3,10 +3,10 @@ import myDashboard.utils.uni.algo_getter as algo
 import myDashboard.utils.uni.rnvs_getter as rnvs
 from myDashboard.models import UniLink
 import threading
-from myDashboard.utils.kijiji_jobs import start_job
+# from myDashboard.utils.kijiji_jobs import start_job
 
 
-start_job()
+# start_job()
 result_data = {}
 
 
