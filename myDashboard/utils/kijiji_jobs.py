@@ -2,7 +2,7 @@
 import mechanicalsoup
 from apscheduler.schedulers.background import BackgroundScheduler, BlockingScheduler
 from myDashboard.utils.json_ops import json_load,json_save
-from os.path import expanduser
+from os.path import expanduser, isfile
 
 # scheduler = BlockingScheduler()
 scheduler = BackgroundScheduler()
@@ -23,11 +23,15 @@ def start_job():
 def get_kiji():
     print('getting Jobs from kijiji.. ')
     data_path = expanduser("/home/cola/jobs.json")
+    if not isfile(data_path):
+        res = json_load(data_path)
+    else:
+        res = {}
     link = "https://www.kijiji.it/offerte-di-lavoro/offerta/annunci-bologna/informatica-e-web/?entryPoint=sb"
     browser = mechanicalsoup.StatefulBrowser()
     browser.open(link)
     searchres = browser.get_current_page().find("ul", id="search-result")
-    res = json_load(data_path)
+
     for li in searchres.find_all("li"):
         loc = li.find("p", class_="locale")
         if loc is None:
