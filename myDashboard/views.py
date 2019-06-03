@@ -8,6 +8,8 @@ from myDashboard.forms import DoneReading
 
 def home_view(request, *args, **kwargs):
     apps = DashApps.objects.all()
+    client_address = request.META['REMOTE_ADDR']
+    print(client_address)
     ctx = {
         "apps": apps
     }
