@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac397a43-3764-4df1-8800-af90ad454092" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/myDashboard/utils/kijiji_jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/kijiji_jobs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myDashboard/utils/kijiji_jobs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="412">
+              <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
               <folding>
                 <element signature="e#1#22#0" expanded="true" />
               </folding>
@@ -66,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="252">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -184,8 +185,8 @@
         <option value="$PROJECT_DIR$/myDashboard/utils/uni/json_ops.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/uni/uni_data.py" />
         <option value="$PROJECT_DIR$/myDashboard/models.py" />
-        <option value="$PROJECT_DIR$/myDashboard/views.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/kijiji_jobs.py" />
+        <option value="$PROJECT_DIR$/myDashboard/views.py" />
       </list>
     </option>
   </component>
@@ -467,7 +468,7 @@
       <workItem from="1559206744081" duration="415000" />
       <workItem from="1559421265653" duration="629000" />
       <workItem from="1559471977547" duration="2481000" />
-      <workItem from="1559563973547" duration="929000" />
+      <workItem from="1559563973547" duration="1567000" />
     </task>
     <task id="LOCAL-00001" summary="better css + new structure">
       <created>1557077700836</created>
@@ -672,11 +673,39 @@
       <option name="project" value="LOCAL" />
       <updated>1559564600812</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="korr inti kijiji">
+      <created>1559564913787</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1559564913787</updated>
+    </task>
+    <task id="LOCAL-00031" summary="upsi">
+      <created>1559565008983</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1559565008984</updated>
+    </task>
+    <task id="LOCAL-00032" summary="upsi">
+      <created>1559565075695</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1559565075695</updated>
+    </task>
+    <task id="LOCAL-00033" summary="upsi">
+      <created>1559565124554</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1559565124554</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152355000" />
+    <option name="totallyTimeSpent" value="152993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1052" extended-state="6" />
@@ -723,8 +752,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="merge" />
-    <MESSAGE value="even better views" />
     <MESSAGE value="Algo Crawler" />
     <MESSAGE value="Algo Crawler korrigiert + rnvs crawler" />
     <MESSAGE value="mangaView + onepiececrawler" />
@@ -748,7 +775,9 @@
     <MESSAGE value="kijiji scheduled Crawler" />
     <MESSAGE value="read client addr test" />
     <MESSAGE value="kijiji scheduled Crawler&#10;+ new read ip test" />
-    <option name="LAST_COMMIT_MESSAGE" value="kijiji scheduled Crawler&#10;+ new read ip test" />
+    <MESSAGE value="korr inti kijiji" />
+    <MESSAGE value="upsi" />
+    <option name="LAST_COMMIT_MESSAGE" value="upsi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1113,16 +1142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myDashboard/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
@@ -1132,10 +1151,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myDashboard/utils/kijiji_jobs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="412">
+          <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
