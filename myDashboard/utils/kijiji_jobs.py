@@ -23,7 +23,7 @@ def start_job():
 def get_kiji():
     print('getting Jobs from kijiji.. ')
     data_path = expanduser("/home/cola/jobs.json")
-    if not isfile(data_path):
+    if isfile(data_path):
         res = json_load(data_path)
     else:
         res = {}
