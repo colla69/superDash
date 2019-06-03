@@ -8,18 +8,12 @@ from myDashboard.forms import DoneReading
 
 def home_view(request, *args, **kwargs):
     apps = DashApps.objects.all()
-
-    print(request.META.keys())
     try:
-        for k in request.META.keys():
-            print(k + " " +request.META[k])
-
-        client_address = request.META['X-Real-IP']
+        # for k in request.META.keys():
+        #     print(k + " " +request.META[k])
+        client_address = request.META['HTTP_X_REAL_IP']
     except:
-        try:
-            client_address = reques.META['REMOTE_ADDR']
-        except:
-            client_address = ""
+        client_address = ""
     print(client_address)
     ctx = {
         "apps": apps

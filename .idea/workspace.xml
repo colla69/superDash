@@ -70,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="180">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -468,7 +468,7 @@
       <workItem from="1559206744081" duration="415000" />
       <workItem from="1559421265653" duration="629000" />
       <workItem from="1559471977547" duration="2481000" />
-      <workItem from="1559563973547" duration="1567000" />
+      <workItem from="1559563973547" duration="1765000" />
     </task>
     <task id="LOCAL-00001" summary="better css + new structure">
       <created>1557077700836</created>
@@ -701,11 +701,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559565124554</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="ssuper test">
+      <created>1559565569012</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1559565569012</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152993000" />
+    <option name="totallyTimeSpent" value="153191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1052" extended-state="6" />
@@ -752,7 +759,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Algo Crawler" />
     <MESSAGE value="Algo Crawler korrigiert + rnvs crawler" />
     <MESSAGE value="mangaView + onepiececrawler" />
     <MESSAGE value=" new field &quot;Type&quot; for appview" />
@@ -777,7 +783,8 @@
     <MESSAGE value="kijiji scheduled Crawler&#10;+ new read ip test" />
     <MESSAGE value="korr inti kijiji" />
     <MESSAGE value="upsi" />
-    <option name="LAST_COMMIT_MESSAGE" value="upsi" />
+    <MESSAGE value="ssuper test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssuper test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1161,8 +1168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="180">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
