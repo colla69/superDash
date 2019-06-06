@@ -12,7 +12,7 @@ job = None
 def start_job():
     global job
     #job = scheduler.add_job(get_kiji, 'interval', seconds=3600)
-    job = scheduler.add_job(get_kiji, 'interval', seconds=200)
+    job = scheduler.add_job(get_kiji, 'interval', seconds=10)
     get_kiji()
     try:
         scheduler.start()
@@ -45,5 +45,6 @@ def get_kiji():
     print(res)
     #json_save(res, data_path)
     print("done\n")
+
 
 #print(res)

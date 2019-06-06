@@ -61,7 +61,6 @@ def get_uni_data():
             data[link.name] = [link, result_data["rnvs_ub"], result_data["rnvs_v"]]
         else:
             data[link.name] = [link, "", ""]
-
     return data
 
 

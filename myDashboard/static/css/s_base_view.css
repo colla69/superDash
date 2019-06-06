@@ -34,10 +34,10 @@ body {
 }
 
 #logo {
-    max-height: 180px;
-    max-width: 180px;
-    min-width: 180px;
-    min-height: 180px;
+    max-height: 130px;
+    max-width: 130px;
+    min-width: 130px;
+    min-height: 130px;
     padding: 0px;
 
     border-radius: 15px;
