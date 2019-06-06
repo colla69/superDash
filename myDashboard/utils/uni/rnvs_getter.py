@@ -39,7 +39,7 @@ def get_vorlesungen():
     soup = BeautifulSoup(page.text, "html.parser")
     tables = soup.find_all("tbody")
     res = {}
-    print(len(tables))
+    #print(len(tables))
     for ix,t in enumerate(tables):
         if ix == 0:
             try:

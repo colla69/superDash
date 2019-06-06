@@ -10,17 +10,22 @@ def get_uebungen():
     links = soup.find_all("td")
     res = {}
     lastname = ""
+    glob_count = 1
     for link in links:
 
         for a in link.find_all("a"):
             try:
                 if a.text == "":
                     continue
-                elif a.text == "Lsg":
+                elif a.text.lower() == "Global".lower():
+                    lastname = a.text+" "+str(glob_count)
+                    glob_count += 1
+                    res[lastname] = a["href"]
+                elif a.text.lower() == "Lsg".lower():
                     res[lastname+"_"+a.text] = a["href"]
                 else:
                     res[a.text] = a["href"]
-                lastname = a.text
+                    lastname = a.text
             except:
                 res[a.text] = ""
             #print(a.text+" "+a["href"])
