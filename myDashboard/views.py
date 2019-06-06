@@ -25,7 +25,7 @@ def ip_view(request, *args, **kwargs):
         client_address = ""
     if client_address:
         save_ip(client_address)
-    return render(request, "")
+    return "OK"
 
 
 def uni_view(request, *args, **kwargs):
