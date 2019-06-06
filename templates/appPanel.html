@@ -12,7 +12,7 @@
         {% if app.type == "util" %}
         <a href="{{ app.link }}" id="app" style="display: inline-block;" target="_blank">
             <img src="{{ app.img_link }}" id="logo">
-            <h4>{{ app.name }}</h4>
+            <h5>{{ app.name }}</h5>
         </a>
         {% endif %}
     {% endfor %}
@@ -22,7 +22,7 @@
         {% if app.type == "app" %}
          <a href="{{ app.link }}" id="app" style="display: inline-block;" target="_blank">
             <img src="{{ app.img_link }}" id="logo">
-            <h4>{{ app.name }}</h4>
+            <h5>{{ app.name }}</h5>
         </a>
         {% endif %}
     {% endfor %}
@@ -32,14 +32,18 @@
         {% if app.type == "tv" %}
          <a href="{{ app.link }}" id="app" style="display: inline-block;" target="_blank">
             <img src="{{ app.img_link }}" id="logo">
-            <h4>{{ app.name }}</h4>
+            <h5>{{ app.name }}</h5>
         </a>
         {% endif %}
     {% endfor %}
 
     </div>
     <div id="right">
-        {{ ip }}
+        <ul>
+            <li>
+            <a href="http://{{ ip }}:89" target="_blank">My Jupyters Notebook</a>
+            </li>
+        </ul>
     </div>
 </div>
 {% endblock %}

@@ -8,14 +8,19 @@ body {
     margin-right: 15px;
     display: inline-block;
 }
-
+#right{
+    margin-right: 15px;
+    padding: 10px;
+    background-color: lightblue;
+    opacity: .75;
+}
 #app {
     margin-right: 15px;
     background-color: lightblue;
     opacity: .75;
 
     line-height: 80px;
-    font-size: x-large;
+    font-size: small;
     text-align: center;
 
     box-sizing: border-box;
@@ -29,7 +34,7 @@ body {
     box-shadow: 0px 1px 17px 4px rgba(0, 0, 0, 0.45);
 }
 
-#app h4 {
+#app h5 {
     margin-top: 5px;
 }
 #wrap{
@@ -38,10 +43,10 @@ body {
 }
 
 #logo {
-    max-height: 130px;
-    max-width: 130px;
-    min-width: 130px;
-    min-height: 130px;
+    max-height: 100px;
+    max-width: 100px;
+    min-width: 100px;
+    min-height: 100px;
     padding: 0px;
 
     border-radius: 15px;
