@@ -16,12 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from myDashboard.views import home_view, uni_view, onepiece_view, \
-    post_seen_op, onepunchman_view, post_seen_opm, bnha_view, post_seen_bnha
+    post_seen_op, onepunchman_view, post_seen_opm, bnha_view, post_seen_bnha, \
+    ip_view
 
 
 urlpatterns = [
     path('admin/', admin.site.urls, name="admin"),
     path('', home_view, name="home"),
+    path('ip/', ip_view, name="ip"),
     path('uni/', uni_view, name="uni"),
     path('op/', onepiece_view, name="op"),
     path('opPost/', post_seen_op, name="opPost"),

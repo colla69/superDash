@@ -5,6 +5,8 @@
 {% endblock %}
 
 {% block content %}
+<div id="wrap">
+    <div id="left">
     <h2> Utils </h2>
     {%  for app in apps %}
         {% if app.type == "util" %}
@@ -34,4 +36,10 @@
         </a>
         {% endif %}
     {% endfor %}
+
+    </div>
+    <div id="right">
+        {{ ip }}
+    </div>
+</div>
 {% endblock %}

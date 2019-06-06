@@ -54,3 +54,15 @@ class DoneLinksLog(models.Model):
     class Meta:
         managed = False
         db_table = 'myDashboard_donelinks_log'
+
+
+class IpLog(models.Model):
+    ip = models.TextField(max_length=20)
+    time = models.DateField()
+
+    def __str__(self):
+        return self.time.strftime("%d/%m/%Y, %H:%M:%S")
+
+    class Meta:
+        managed = False
+        db_table = 'myDashboard_ip_log'

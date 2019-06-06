@@ -32,6 +32,10 @@ body {
 #app h4 {
     margin-top: 5px;
 }
+#wrap{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
 
 #logo {
     max-height: 130px;

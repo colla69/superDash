@@ -1,24 +1,31 @@
 from django.shortcuts import render
 from .models import DashApps, DoneLinksLog
 import myDashboard.utils.uni.uni_data as uni
-import myDashboard.utils.onepiece_getter as op
-import myDashboard.utils.onepunchman_getter as opm
-import myDashboard.utils.bokunoheroacademia_getter as bnha
+import myDashboard.utils.manga.onepiece_getter as op
+import myDashboard.utils.manga.onepunchman_getter as opm
+import myDashboard.utils.manga.bokunoheroacademia_getter as bnha
 from myDashboard.forms import DoneReading
+from myDashboard.utils.ip_track import save_ip, last_ip
+
 
 def home_view(request, *args, **kwargs):
     apps = DashApps.objects.all()
+    ctx = {
+        "apps": apps,
+        "ip": last_ip()
+    }
+    return render(request, "appPanel.html", ctx)
+
+def ip_view(request, *args, **kwargs):
     try:
         # for k in request.META.keys():
         #     print(k + " " +request.META[k])
         client_address = request.META['HTTP_X_REAL_IP']
     except:
         client_address = ""
-    print(client_address)
-    ctx = {
-        "apps": apps
-    }
-    return render(request, "appPanel.html", ctx)
+    if client_address:
+        save_ip(client_address)
+    return render(request, "")
 
 
 def uni_view(request, *args, **kwargs):
