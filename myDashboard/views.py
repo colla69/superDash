@@ -6,7 +6,7 @@ import myDashboard.utils.manga.onepunchman_getter as opm
 import myDashboard.utils.manga.bokunoheroacademia_getter as bnha
 from myDashboard.forms import DoneReading
 from myDashboard.utils.ip_track import save_ip, get_last_ip
-
+from django.http import HttpResponse
 
 def home_view(request, *args, **kwargs):
     apps = DashApps.objects.all()
@@ -25,7 +25,7 @@ def ip_view(request, *args, **kwargs):
         client_address = ""
     if client_address:
         save_ip(client_address)
-    return "OK"
+    return HttpResponse('OK')
 
 
 def uni_view(request, *args, **kwargs):
