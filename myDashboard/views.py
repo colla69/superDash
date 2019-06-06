@@ -72,7 +72,6 @@ def post_seen_opm(request):
 
 def bnha_view(request, *args, **kwargs):
     read_chap = get_read_chapters(bnha.get_bokunoheroacademiaManga())
-    print(read_chap)
     ctx = {
         "chapters": read_chap,
     }

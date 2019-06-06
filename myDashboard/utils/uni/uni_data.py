@@ -51,7 +51,6 @@ def get_uni_data():
     for x in threads:
         x.join()
 
-    print(result_data["rnvs_v"])
     data = {}
     for link in links:
         if link.name == "Promo":
