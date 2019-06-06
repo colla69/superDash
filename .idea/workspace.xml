@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="324">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -202,8 +202,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="698" />
+    <option name="x" value="184" />
+    <option name="y" value="105" />
+    <option name="width" value="1272" />
+    <option name="height" value="694" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -494,7 +496,7 @@
       <workItem from="1559563973547" duration="2197000" />
       <workItem from="1559583837887" duration="14000" />
       <workItem from="1559586321304" duration="3326000" />
-      <workItem from="1559834260913" duration="9767000" />
+      <workItem from="1559834260913" duration="10885000" />
     </task>
     <task id="LOCAL-00001" summary="better css + new structure">
       <created>1557077700836</created>
@@ -797,11 +799,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559844160497</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="maybe">
+      <created>1559844274646</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1559844274646</updated>
+    </task>
+    <task id="LOCAL-00045" summary="now!">
+      <created>1559844959056</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1559844959056</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166730000" />
+    <option name="totallyTimeSpent" value="167848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1048" extended-state="6" />
@@ -849,8 +865,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bnah view added" />
-    <MESSAGE value="new home design" />
     <MESSAGE value="tv channels added" />
     <MESSAGE value="new docker-compose.yaml and Dockerfile for distribution" />
     <MESSAGE value="dash online :)" />
@@ -874,7 +888,9 @@
     <MESSAGE value="redesign" />
     <MESSAGE value="ip track implemented" />
     <MESSAGE value="upsi" />
-    <option name="LAST_COMMIT_MESSAGE" value="upsi" />
+    <MESSAGE value="maybe" />
+    <MESSAGE value="now!" />
+    <option name="LAST_COMMIT_MESSAGE" value="now!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1281,8 +1297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="324">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

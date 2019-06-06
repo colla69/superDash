@@ -17,6 +17,7 @@ def home_view(request, *args, **kwargs):
     return render(request, "appPanel.html", ctx)
 
 def ip_view(request, *args, **kwargs):
+    print("pingHome")
     try:
         # for k in request.META.keys():
         #     print(k + " " +request.META[k])
