@@ -10,11 +10,11 @@
 {% endblock %}
 
 {% block content %}
+    <div id="wrap">
     {% for key, value in VLs.items %}
-    <div id="unilink">
-
+        <div id="unilink">
         <h3>{{ value.0 }}</h3>
-        <div style="width: 100%">
+        <div id="links" style="width: 100%">
         <p><a href="{{ value.0.link }}" target="_blank">
             UniPortal
         </a></p>
@@ -57,4 +57,5 @@
         </ul>
     </div>
     {% endfor %}
+    </div>
 {% endblock %}

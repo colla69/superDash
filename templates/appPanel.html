@@ -8,7 +8,7 @@
     <h2> Utils </h2>
     {%  for app in apps %}
         {% if app.type == "util" %}
-        <a href="{{ app.link }}" id="app" style="display: inline-block;">
+        <a href="{{ app.link }}" id="app" style="display: inline-block;" target="_blank">
             <img src="{{ app.img_link }}" id="logo">
             <h4>{{ app.name }}</h4>
         </a>
