@@ -5,14 +5,14 @@ import myDashboard.utils.manga.onepiece_getter as op
 import myDashboard.utils.manga.onepunchman_getter as opm
 import myDashboard.utils.manga.bokunoheroacademia_getter as bnha
 from myDashboard.forms import DoneReading
-from myDashboard.utils.ip_track import save_ip, last_ip
+from myDashboard.utils.ip_track import save_ip, get_last_ip
 
 
 def home_view(request, *args, **kwargs):
     apps = DashApps.objects.all()
     ctx = {
         "apps": apps,
-        "ip": last_ip()
+        "ip": get_last_ip()
     }
     return render(request, "appPanel.html", ctx)
 
