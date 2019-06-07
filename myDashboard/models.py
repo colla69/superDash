@@ -58,10 +58,10 @@ class DoneLinksLog(models.Model):
 
 class IpLog(models.Model):
     ip = models.TextField(max_length=20)
-    time = models.DateField()
+    time = models.DateTimeField()
 
     def __str__(self):
-        return self.time
+        return self.time.strftime("%d/%m/%Y, %H:%M:%S")
 
     class Meta:
         managed = False
