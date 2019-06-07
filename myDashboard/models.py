@@ -61,7 +61,7 @@ class IpLog(models.Model):
     time = models.DateField()
 
     def __str__(self):
-        return self.time.strftime("%d/%m/%Y, %H:%M:%S")
+        return self.time
 
     class Meta:
         managed = False
