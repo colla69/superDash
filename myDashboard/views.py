@@ -6,7 +6,9 @@ import myDashboard.utils.manga.onepunchman_getter as opm
 import myDashboard.utils.manga.bokunoheroacademia_getter as bnha
 from myDashboard.forms import DoneReading
 from myDashboard.utils.ip_track import save_ip, get_last_ip
+from myDashboard.utils.site_checker import check_online
 from django.http import HttpResponse
+
 
 def home_view(request, *args, **kwargs):
     apps = DashApps.objects.all()

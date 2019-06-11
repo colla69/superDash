@@ -66,3 +66,16 @@ class IpLog(models.Model):
     class Meta:
         managed = False
         db_table = 'myDashboard_ip_log'
+
+
+class CheckSitesLog(models.Model):
+    site = models.TextField()
+    time = models.DateTimeField(null=True)
+    status = models.BooleanField()
+
+    def __str__(self):
+        return self.site
+
+    class Meta:
+        managed = False
+        db_table = 'myDashboard_check_sites_log'
