@@ -1,4 +1,4 @@
-
+from django.utils import timezone
 
 def get_kiji(soup):
     res = {}
@@ -15,7 +15,10 @@ def get_kiji(soup):
             res[link] = {
                 "title": title,
                 "link": link,
-                 "description": description,
+                "description": description,
+                "location": loc.text,
+                "site": "kijiji",
+                "time": timezone.now(),
             }
     return res
 

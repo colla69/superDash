@@ -1,10 +1,23 @@
-{% extends "base_view.html"%}
+{% extends "base_view.html" %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/s_manga_view.css' %}">
+{% endblock %}
+
 
 {%  block content %}
     <div id="jobsWrap">
         <ul>
-            {%  for app in jobs %}
-              <li>hi</li>
+            {%  for _,job in jobs.items %}
+                <li>
+                    <h5>
+                          <a href="{{ job.link }}" target="_blank" style="color:darkblue">
+                            {{ job.title }}
+                        </a> a {{ job.location }} ------ {{ job.site }}
+                    </h5>
+                    <p style="font-size: small">{{ job.description }}</p>
+                </li>
             {% endfor %}
         </ul>
     </div>
