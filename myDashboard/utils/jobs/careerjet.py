@@ -1,4 +1,3 @@
-from django.utils import timezone
 import mechanicalsoup
 from myDashboard.models import DataDump
 from bs4 import BeautifulSoup
@@ -18,7 +17,7 @@ def get_careerjet_single_links(link):
     return res
 
 
-def get_careerjet_jobs(soup):
+def get_careerjet_jobs(soup, time):
     base_addr = "https://www.careerjet.it"
     divs = soup.find_all("div", class_="job display-new-job clickable")
     divs.append(soup.find("div", class_="job display-new-job clickable first"))
@@ -33,7 +32,7 @@ def get_careerjet_jobs(soup):
             "description": description,
             "location": location,
             "site": "careerjet.it",
-            "time": timezone.now(),
+            "time": time,
         }
     return res
 

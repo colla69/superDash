@@ -9,11 +9,7 @@
       <change beforePath="$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myDashboard/utils/jobs/jobData_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/jobs/jobData_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myDashboard/utils/save_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/save_sites.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myDashboard/utils/schedule_events.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/schedule_events.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base_view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/jobs_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jobs_view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mangaPanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mangaPanel.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,22 +71,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#4#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myDashboard/utils/save_sites.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="98" />
+            <state relative-caret-position="433">
+              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding>
                 <element signature="e#1#22#0" expanded="true" />
               </folding>
@@ -99,10 +83,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myDashboard/models.py">
+        <entry file="file://$PROJECT_DIR$/templates/jobs_view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+            <state relative-caret-position="414">
+              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -110,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/jobData_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="252">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -120,12 +104,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py">
+        <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="-377">
+              <folding>
+                <element signature="e#1#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -196,11 +187,11 @@
         <option value="$PROJECT_DIR$/myDashboard/views.py" />
         <option value="$PROJECT_DIR$/templates/base_view.html" />
         <option value="$PROJECT_DIR$/templates/mangaPanel.html" />
-        <option value="$PROJECT_DIR$/templates/jobs_view.html" />
-        <option value="$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/schedule_events.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/save_sites.py" />
+        <option value="$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py" />
+        <option value="$PROJECT_DIR$/templates/jobs_view.html" />
         <option value="$PROJECT_DIR$/myDashboard/utils/jobs/jobData_handler.py" />
       </list>
     </option>
@@ -515,14 +506,7 @@
       <workItem from="1559834260913" duration="13255000" />
       <workItem from="1559920240699" duration="11628000" />
       <workItem from="1560269131216" duration="1172000" />
-      <workItem from="1560333032667" duration="11611000" />
-    </task>
-    <task id="LOCAL-00008" summary="Algo Crawler korrigiert + rnvs crawler">
-      <created>1557224597862</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1557224597862</updated>
+      <workItem from="1560333032667" duration="12162000" />
     </task>
     <task id="LOCAL-00009" summary="mangaView + onepiececrawler">
       <created>1557236959217</created>
@@ -860,11 +844,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560339306765</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="jobs view implemented">
+      <created>1560344776165</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1560344776165</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194629000" />
+    <option name="totallyTimeSpent" value="195180000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -967,11 +958,11 @@
     <MESSAGE value="cleanup" />
     <MESSAGE value="data dump added" />
     <MESSAGE value="scheduled data dumping added" />
-    <MESSAGE value="jobs view implemented" />
     <MESSAGE value="scheduler fixed -.-'" />
     <MESSAGE value="link to new page added" />
     <MESSAGE value="new careerjet save" />
-    <option name="LAST_COMMIT_MESSAGE" value="new careerjet save" />
+    <MESSAGE value="jobs view implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="jobs view implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1323,24 +1314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/jobs_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="e#366#388#0#HTML" expanded="true" />
-            <element signature="e#497#521#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://687e72aa-d3cf-4ccb-954d-888598c10be5/schema/dashDB/table/myDashboard_data_dump">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="35fdc777-25cf-4d19-be7e-6ac3d18d6d6b">
@@ -1362,35 +1335,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myDashboard/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+        <state relative-caret-position="144">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/utils/save_sites.py">
+    <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="98" />
+        <state relative-caret-position="-377">
           <folding>
             <element signature="e#1#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py">
+    <entry file="file://$PROJECT_DIR$/myDashboard/utils/save_sites.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        <state relative-caret-position="433">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding>
-            <element signature="e#0#4#0" expanded="true" />
+            <element signature="e#1#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/jobs_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/jobData_handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="252">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
