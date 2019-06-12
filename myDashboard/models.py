@@ -79,3 +79,15 @@ class CheckSitesLog(models.Model):
     class Meta:
         managed = False
         db_table = 'myDashboard_check_sites_log'
+
+class DataDump(models.Model):
+    source = models.TextField()
+    time = models.DateTimeField()
+    data = models.TextField()
+
+    def __str__(self):
+        return self.source
+
+    class Meta:
+        managed = False
+        db_table = 'myDashboard_data_dump'
