@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac397a43-3764-4df1-8800-af90ad454092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myDashboard/utils/myIpTools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myDashboard/utils/save_sites.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myDashboard/utils/schedule_events.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myDashboard/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myDashboard/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myDashboard/utils/ip_track.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/myIpTools/ip_track.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myDashboard/utils/kijiji_jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myDashboard/utils/sidereel_tracker_getter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myDashboard/utils/site_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/myIpTools/site_checker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myDashboard/utils/uni/uni_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/uni/uni_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myDashboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superDash/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/superDash/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +51,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/superDash/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="33" column="51" lean-forward="true" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+              <folding>
+                <element signature="e#633#665#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myDashboard/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="433">
@@ -81,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myDashboard/utils/schedule_events.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="396">
+              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
               <folding>
                 <element signature="e#0#65#0" expanded="true" />
               </folding>
@@ -112,6 +126,18 @@
               <filtering>
                 <filter text="" />
               </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myDashboard/utils/uni/uni_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,22 +212,22 @@
         <option value="$PROJECT_DIR$/myDashboard/forms.py" />
         <option value="$PROJECT_DIR$/myDashboard/migrations/0005_ipLog.py" />
         <option value="$PROJECT_DIR$/myDashboard/migrations/0005_ipLog_corr.py" />
-        <option value="$PROJECT_DIR$/superDash/urls.py" />
         <option value="$PROJECT_DIR$/templates/appPanel.html" />
         <option value="$PROJECT_DIR$/myDashboard/static/css/s_base_view.css" />
         <option value="$PROJECT_DIR$/myDashboard/migrations/0005_checkSitesLog.py" />
         <option value="$PROJECT_DIR$/myDashboard/migrations/0006_checkSitesLog.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/ip_track.py" />
-        <option value="$PROJECT_DIR$/myDashboard/views.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/site_checker.py" />
         <option value="$PROJECT_DIR$/myDashboard/migrations/0007_data_dump.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/myIpTools/site_checker.py" />
         <option value="$PROJECT_DIR$/myDashboard/models.py" />
         <option value="$PROJECT_DIR$/myDashboard/admin.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py" />
-        <option value="$PROJECT_DIR$/myDashboard/utils/uni/uni_data.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/save_sites.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/schedule_events.py" />
+        <option value="$PROJECT_DIR$/myDashboard/utils/uni/uni_data.py" />
+        <option value="$PROJECT_DIR$/myDashboard/views.py" />
+        <option value="$PROJECT_DIR$/superDash/urls.py" />
       </list>
     </option>
   </component>
@@ -241,38 +267,6 @@
             <path>
               <item name="superDash" type="b2602c69:ProjectViewProjectNode" />
               <item name="superDash" type="462c0819:PsiDirectoryNode" />
-              <item name="myDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="superDash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="superDash" type="462c0819:PsiDirectoryNode" />
-              <item name="myDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="superDash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="superDash" type="462c0819:PsiDirectoryNode" />
-              <item name="myDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="superDash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="superDash" type="462c0819:PsiDirectoryNode" />
-              <item name="myDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="superDash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="superDash" type="462c0819:PsiDirectoryNode" />
-              <item name="myDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="uni" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="superDash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="superDash" type="462c0819:PsiDirectoryNode" />
               <item name="superDash" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,7 +285,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myDashboard/migrations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -532,14 +526,7 @@
       <workItem from="1559834260913" duration="13255000" />
       <workItem from="1559920240699" duration="11628000" />
       <workItem from="1560269131216" duration="1172000" />
-      <workItem from="1560333032667" duration="1598000" />
-    </task>
-    <task id="LOCAL-00003" summary="merge">
-      <created>1557128700898</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1557128700898</updated>
+      <workItem from="1560333032667" duration="2059000" />
     </task>
     <task id="LOCAL-00004" summary="even better views">
       <created>1557169165847</created>
@@ -877,11 +864,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560333186953</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="scheduled data dumping added">
+      <created>1560334831014</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1560334831014</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184616000" />
+    <option name="totallyTimeSpent" value="185077000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -896,12 +890,12 @@
     <frame x="-4" y="0" width="1928" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22358592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22358592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49466383" visible="true" weight="0.3159609" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49466383" visible="true" weight="0.3159609" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978022" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -918,7 +912,7 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.13287087" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.016008537" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -938,7 +932,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="versuch lds crawler + korr rnvs crawler" />
     <MESSAGE value="korr promo crawler" />
     <MESSAGE value="rnvs schreibt die homepage einfach mal um .. weil FU" />
     <MESSAGE value="fixed RNVS" />
@@ -963,7 +956,8 @@
     <MESSAGE value="ip log time fixed" />
     <MESSAGE value="cleanup" />
     <MESSAGE value="data dump added" />
-    <option name="LAST_COMMIT_MESSAGE" value="data dump added" />
+    <MESSAGE value="scheduled data dumping added" />
+    <option name="LAST_COMMIT_MESSAGE" value="scheduled data dumping added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1238,13 +1232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/appPanel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -1258,16 +1245,6 @@
           <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/superDash/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="32" column="55" lean-forward="true" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1320,13 +1297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/utils/uni/uni_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/mechanicalsoup/stateful_browser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-270">
@@ -1357,6 +1327,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/utils/schedule_events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="das://687e72aa-d3cf-4ccb-954d-888598c10be5/schema/dashDB/table/myDashboard_data_dump">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="35fdc777-25cf-4d19-be7e-6ac3d18d6d6b">
@@ -1366,12 +1346,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/utils/schedule_events.py">
+    <entry file="file://$PROJECT_DIR$/myDashboard/utils/uni/uni_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="72">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding>
-            <element signature="e#0#65#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superDash/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="33" column="51" lean-forward="true" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
           </folding>
         </state>
       </provider>

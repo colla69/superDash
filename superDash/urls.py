@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from myDashboard.views import home_view, uni_view, onepiece_view, \
     post_seen_op, onepunchman_view, post_seen_opm, bnha_view, post_seen_bnha, \
-    ip_view
+    ip_view, jobs_view
 
 
 urlpatterns = [
@@ -31,6 +31,7 @@ urlpatterns = [
     path('opmPost/', post_seen_opm, name="opmPost"),
     path('bnha/', bnha_view, name="bnha"),
     path('bnhaPost/', post_seen_bnha, name="bnhaPost"),
+    path('jobSearch/', jobs_view, name="jobsView"),
 ]
 
 

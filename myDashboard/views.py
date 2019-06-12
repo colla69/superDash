@@ -20,6 +20,7 @@ def home_view(request, *args, **kwargs):
     }
     return render(request, "appPanel.html", ctx)
 
+
 def ip_view(request, *args, **kwargs):
     print("pingHome")
     try:
@@ -114,3 +115,7 @@ def get_read_chapters(chpts):
         else:
             read_chap.append((key, val, "Unread"))
     return read_chap
+
+
+def jobs_view(request, *args, **kwargs):
+    return render(request, 'jobs_view.html')
