@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'dashDB',
         'USER': 'cola',
         'PASSWORD': psw(),
-        'HOST': 'giagii.com',
+        'HOST': 'colarietitosti.info',
         'PORT': '3306',
     }
 }
