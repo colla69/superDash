@@ -1,12 +1,7 @@
 import os
 import mechanicalsoup
 from myDashboard.models import CheckSitesLog
-from apscheduler.schedulers.background import BackgroundScheduler
 from django.utils import timezone
-
-scheduler = BackgroundScheduler()
-job = None
-
 
 checklist = [
     "https://cv.colarietitosti.info",
@@ -40,16 +35,3 @@ def check_online():
         entry = CheckSitesLog.objects.create(site=link, time=timezone.now(), status=status)
         entry.save()
     # print(res)
-
-def start_job():
-    global job
-    job = scheduler.add_job(check_online, 'interval', seconds=300)
-    check_online()
-    try:
-        scheduler.start()
-    except:
-        pass
-
-
-start_job()
-#check_online()

@@ -80,6 +80,7 @@ class CheckSitesLog(models.Model):
         managed = False
         db_table = 'myDashboard_check_sites_log'
 
+
 class DataDump(models.Model):
     source = models.TextField()
     time = models.DateTimeField()

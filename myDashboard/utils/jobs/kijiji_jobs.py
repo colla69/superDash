@@ -1,23 +1,6 @@
 
 import mechanicalsoup
-from apscheduler.schedulers.background import BackgroundScheduler, BlockingScheduler
-from myDashboard.utils.json_ops import json_load,json_save
 from os.path import expanduser, isfile
-
-# scheduler = BlockingScheduler()
-scheduler = BackgroundScheduler()
-job = None
-
-
-def start_job():
-    global job
-    #job = scheduler.add_job(get_kiji, 'interval', seconds=3600)
-    job = scheduler.add_job(get_kiji, 'interval', seconds=10)
-    get_kiji()
-    try:
-        scheduler.start()
-    except:
-        pass
 
 
 def get_kiji():
@@ -43,8 +26,6 @@ def get_kiji():
                          "description": description
                          }
     print(res)
-    #json_save(res, data_path)
     print("done\n")
 
 
-#print(res)

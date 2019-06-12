@@ -5,9 +5,11 @@ import myDashboard.utils.manga.onepiece_getter as op
 import myDashboard.utils.manga.onepunchman_getter as opm
 import myDashboard.utils.manga.bokunoheroacademia_getter as bnha
 from myDashboard.forms import DoneReading
-from myDashboard.utils.ip_track import save_ip, get_last_ip
-from myDashboard.utils.site_checker import check_online
+from myDashboard.utils.myIpTools.ip_track import save_ip, get_last_ip
 from django.http import HttpResponse
+
+# needed to start scheduler
+import myDashboard.utils.schedule_events
 
 
 def home_view(request, *args, **kwargs):
