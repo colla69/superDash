@@ -1,5 +1,11 @@
 {% extends "base_view.html"%}
 
 {%  block content %}
-    hey
+    <div id="jobsWrap">
+        <ul>
+            {%  for app in jobs %}
+              <li>hi</li>
+            {% endfor %}
+        </ul>
+    </div>
 {% endblock %}

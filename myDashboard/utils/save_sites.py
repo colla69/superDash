@@ -2,14 +2,20 @@
 import mechanicalsoup
 from django.utils import timezone
 from myDashboard.models import DataDump
+from .jobs.careerjet import get_careerjet_single_links
+
 
 links = [
-    "https://www.careerjet.it/wcerca/lavoro?s=programmatore&l=Bologna&lid=41991&ct=p&nw=1",
     "https://www.kijiji.it/offerte-di-lavoro/offerta/annunci-bologna/informatica-e-web/",
 ]
 
+def add_carrer_jet():
+    c_links = get_careerjet_single_links("https://www.careerjet.it/wcerca/lavoro?s=programmatore&l=Bologna&lid=41991&ct=p&nw=1")
+    for l in c_links:
+        links.append(l)
 
 def save_HTML_dump():
+    add_carrer_jet()
     browser = mechanicalsoup.StatefulBrowser()
     for link in links:
         browser.open(link)

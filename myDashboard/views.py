@@ -6,6 +6,7 @@ import myDashboard.utils.manga.onepunchman_getter as opm
 import myDashboard.utils.manga.bokunoheroacademia_getter as bnha
 from myDashboard.forms import DoneReading
 from myDashboard.utils.myIpTools.ip_track import save_ip, get_last_ip
+from myDashboard.utils.jobs.jobData_handler import get_jobList
 from django.http import HttpResponse
 
 # needed to start scheduler
@@ -118,4 +119,5 @@ def get_read_chapters(chpts):
 
 
 def jobs_view(request, *args, **kwargs):
-    return render(request, 'jobs_view.html')
+    ctx = {"jobs": get_jobList()}
+    return render(request, 'jobs_view.html', ctx)
