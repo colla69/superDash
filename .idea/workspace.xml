@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ac397a43-3764-4df1-8800-af90ad454092" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/jobs/jobData_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/jobs/jobData_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/save_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/save_sites.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,32 +62,9 @@
         <entry file="file://$PROJECT_DIR$/myDashboard/utils/schedule_events.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="das://687e72aa-d3cf-4ccb-954d-888598c10be5/schema/myBase/table/news">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="35fdc777-25cf-4d19-be7e-6ac3d18d6d6b">
-              <filtering>
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myDashboard/utils/save_sites.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-              <folding>
-                <element signature="e#1#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,16 +74,28 @@
         <entry file="file://$PROJECT_DIR$/templates/jobs_view.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myDashboard/utils/save_sites.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <folding>
+                <element signature="e#1#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/jobData_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="387">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -111,12 +104,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myDashboard/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="84" column="10" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-377">
-              <folding>
-                <element signature="e#1#22#0" expanded="true" />
-              </folding>
+            <state>
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -124,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+            <state relative-caret-position="54">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -153,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/myDashboard/utils/sidereel_tracker_getter.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
@@ -162,7 +161,6 @@
         <option value="$PROJECT_DIR$/myDashboard/utils/rnvs_getter.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/promo_getter.py" />
         <option value="$PROJECT_DIR$/myDashboard/uni_data.py" />
-        <option value="$PROJECT_DIR$/superDash/settings.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/uni/lds_getter.py#.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/uni/lds_getter.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/uni/promo_getter.py" />
@@ -197,13 +195,15 @@
         <option value="$PROJECT_DIR$/myDashboard/views.py" />
         <option value="$PROJECT_DIR$/templates/base_view.html" />
         <option value="$PROJECT_DIR$/templates/mangaPanel.html" />
-        <option value="$PROJECT_DIR$/myDashboard/utils/save_sites.py" />
-        <option value="$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py" />
         <option value="$PROJECT_DIR$/templates/jobs_view.html" />
-        <option value="$PROJECT_DIR$/myDashboard/utils/jobs/jobData_handler.py" />
-        <option value="$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py" />
         <option value="$PROJECT_DIR$/myDashboard/utils/schedule_events.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/superDash/settings.py" />
+        <option value="$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py" />
+        <option value="$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py" />
+        <option value="$PROJECT_DIR$/myDashboard/utils/save_sites.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/687e72aa-d3cf-4ccb-954d-888598c10be5/console_1.sql" />
+        <option value="$PROJECT_DIR$/myDashboard/utils/jobs/jobData_handler.py" />
       </list>
     </option>
   </component>
@@ -291,18 +291,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$/myDashboard/migrations" />
-      <recent name="$PROJECT_DIR$/myDashboard/utils" />
-      <recent name="$PROJECT_DIR$/myDashboard/static/css" />
-      <recent name="$PROJECT_DIR$/myDashboard" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/myDashboard/utils/jobs" />
       <recent name="$PROJECT_DIR$/myDashboard/utils/myIpTools" />
       <recent name="$PROJECT_DIR$/myDashboard/utils/manga" />
       <recent name="$PROJECT_DIR$/myDashboard/utils" />
+      <recent name="$PROJECT_DIR$/myDashboard" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/myDashboard/migrations" />
+      <recent name="$PROJECT_DIR$/myDashboard/utils" />
+      <recent name="$PROJECT_DIR$/myDashboard/static/css" />
       <recent name="$PROJECT_DIR$/myDashboard" />
     </key>
   </component>
@@ -478,12 +478,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@202da80d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@202da80d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@79acc437" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@99b34478" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -522,14 +517,9 @@
       <workItem from="1559834260913" duration="13255000" />
       <workItem from="1559920240699" duration="11628000" />
       <workItem from="1560269131216" duration="1172000" />
-      <workItem from="1560333032667" duration="13850000" />
-    </task>
-    <task id="LOCAL-00010" summary=" new field &quot;Type&quot; for appview">
-      <created>1557238448920</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1557238448920</updated>
+      <workItem from="1560333032667" duration="14569000" />
+      <workItem from="1560349917512" duration="11000" />
+      <workItem from="1560410007410" duration="7986000" />
     </task>
     <task id="LOCAL-00011" summary=" new layout">
       <created>1557240666253</created>
@@ -867,11 +857,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560345423663</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="fix">
+      <created>1560349316152</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1560349316152</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196868000" />
+    <option name="totallyTimeSpent" value="205584000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -884,14 +881,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1052" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22358592" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17182498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49466383" visible="true" weight="0.3159609" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49466383" visible="true" weight="0.44408253" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978022" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -902,13 +898,13 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50533617" side_tool="true" weight="0.31630436" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49786553" weight="0.43213898" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32899022" />
-      <window_info anchor="bottom" id="Services" order="13" weight="0.32899022" />
+      <window_info anchor="bottom" id="Services" order="13" weight="0.2649294" />
       <window_info anchor="right" x="0" y="0" width="191" height="852" id="Documentation" order="0" side_tool="true" weight="0.39381003" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
-      <window_info active="true" anchor="right" id="Database" order="5" visible="true" weight="0.22678763" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.22678763" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22358592" />
@@ -953,7 +949,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kijiji scheduled Crawler&#10;+ new read ip test" />
     <MESSAGE value="korr inti kijiji" />
     <MESSAGE value="ssuper test" />
     <MESSAGE value="real IP read" />
@@ -978,7 +973,8 @@
     <MESSAGE value="new careerjet save" />
     <MESSAGE value="jobs view implemented" />
     <MESSAGE value="timestamp added" />
-    <option name="LAST_COMMIT_MESSAGE" value="timestamp added" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1025,31 +1021,6 @@
     <SUITE FILE_PATH="coverage/superDash$promo_getter.coverage" NAME="promo_getter Coverage Results" MODIFIED="1557601268786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myDashboard/utils" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myDashboard/cron.py" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/utils/uni/rnvs_getter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myDashboard/static/css/s_manga_view.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1079,16 +1050,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myDashboard/utils/html_utils.py" />
-    <entry file="file://$PROJECT_DIR$/myDashboard/utils/sidereel_tracker_getter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/utils/sidereel_tracker_getter.py" />
     <entry file="file://$PROJECT_DIR$/myDashboard/utils/json_ops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1110,13 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/db/models/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="655" column="8" selection-start-line="655" selection-start-column="8" selection-end-line="655" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1148,16 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/superDash/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="83" column="23" lean-forward="true" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
-          <folding>
-            <element signature="e#310#319#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1219,13 +1164,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/superDash/psw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/mechanicalsoup/stateful_browser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-270">
@@ -1259,16 +1197,6 @@
           <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="121" column="22" lean-forward="true" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1320,16 +1248,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/models.py">
+    <entry file="file://$PROJECT_DIR$/superDash/psw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="das://687e72aa-d3cf-4ccb-954d-888598c10be5/schema/dashDB/table/myDashboard_data_dump">
+    <entry file="file://$PROJECT_DIR$/superDash/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="100" column="6" lean-forward="true" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+          <folding>
+            <element signature="e#310#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://687e72aa-d3cf-4ccb-954d-888598c10be5/schema/myBase/table/news">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="35fdc777-25cf-4d19-be7e-6ac3d18d6d6b">
+        <state projectRestartId="ee6a3c66-8f41-4034-815c-ac8e70391065">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://687e72aa-d3cf-4ccb-954d-888598c10be5/schema/dashDB/table/myDashboard_ip_log">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="ee6a3c66-8f41-4034-815c-ac8e70391065">
           <filtering>
             <filter text="" />
           </filtering>
@@ -1338,19 +1285,28 @@
     </entry>
     <entry file="das://687e72aa-d3cf-4ccb-954d-888598c10be5/schema/myBase/table/ip_track">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="35fdc777-25cf-4d19-be7e-6ac3d18d6d6b">
+        <state projectRestartId="ee6a3c66-8f41-4034-815c-ac8e70391065">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/utils/save_sites.py">
+    <entry file="das://687e72aa-d3cf-4ccb-954d-888598c10be5/schema/dashDB/table/myDashboard_donelinks_log">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="ee6a3c66-8f41-4034-815c-ac8e70391065">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/utils/schedule_events.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#1#22#0" expanded="true" />
+            <element signature="e#0#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1358,52 +1314,88 @@
     <entry file="file://$PROJECT_DIR$/templates/jobs_view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/jobData_handler.py">
+    <entry file="file://$PROJECT_DIR$/myDashboard/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="492">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-377">
-          <folding>
-            <element signature="e#1#22#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+        <state relative-caret-position="54">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDashboard/utils/schedule_events.py">
+    <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state>
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/utils/save_sites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
-            <element signature="e#0#65#0" expanded="true" />
+            <element signature="e#1#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://687e72aa-d3cf-4ccb-954d-888598c10be5/schema/myBase/table/news">
+    <entry file="das://687e72aa-d3cf-4ccb-954d-888598c10be5/schema/dashDB/table/myDashboard_data_dump">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="35fdc777-25cf-4d19-be7e-6ac3d18d6d6b">
+        <state projectRestartId="ee6a3c66-8f41-4034-815c-ac8e70391065">
           <filtering>
             <filter text="" />
           </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/687e72aa-d3cf-4ccb-954d-888598c10be5/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/db/models/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="1621" selection-start-line="1621" selection-end-line="1621" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/db/models/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="84" column="10" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDashboard/utils/jobs/jobData_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

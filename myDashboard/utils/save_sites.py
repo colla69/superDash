@@ -19,6 +19,7 @@ def add_carrer_jet():
 
 
 def save_HTML_dump():
+    print("saving websites")
     add_carrer_jet()
     browser = mechanicalsoup.StatefulBrowser()
     for link in links:
