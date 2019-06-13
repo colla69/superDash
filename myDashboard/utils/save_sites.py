@@ -3,7 +3,7 @@ import mechanicalsoup
 from django.utils import timezone
 from myDashboard.models import DataDump
 from .jobs.careerjet import get_careerjet_single_links
-
+from .jobs.linkedin import save_linkedin
 
 careerjet = "https://www.careerjet.it/wcerca/lavoro?s=programmatore&l=Bologna&lid=41991&ct=p&nw=1"
 links = [
@@ -20,7 +20,9 @@ def add_carrer_jet():
 
 def save_HTML_dump():
     print("saving websites")
+    save_linkedin()
     add_carrer_jet()
+
     browser = mechanicalsoup.StatefulBrowser()
     for link in links:
         browser.open(link)

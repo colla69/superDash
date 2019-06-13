@@ -2,11 +2,14 @@ from bs4 import BeautifulSoup
 from myDashboard.models import DataDump
 from myDashboard.utils.jobs.kijiji_jobs import get_kiji
 from myDashboard.utils.jobs.careerjet import get_careerjet_jobs
+from myDashboard.utils.jobs.linkedin import get_linkedin_jobs
 from django.utils import timezone
+
 
 
 kijiji = "https://www.kijiji.it/offerte-di-lavoro/offerta/annunci-bologna/informatica-e-web/"
 careerjet = "https://www.careerjet.it/wcerca/lavoro?s=programmatore&l=Bologna&lid=41991&ct=p&nw=1"
+linkedin = "https://it.linkedin.com/"
 
 
 def get_jobList():
@@ -27,6 +30,8 @@ def get_jobList():
             jobs = get_kiji(soup, time)
         elif careerjet == key:
             jobs = get_careerjet_jobs(soup, time)
+        elif linkedin in key:
+            jobs = get_linkedin_jobs(soup, time, key)
         try:
             for j in jobs.keys():
                 res[j] = jobs[j]

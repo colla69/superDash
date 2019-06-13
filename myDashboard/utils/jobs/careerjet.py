@@ -20,7 +20,6 @@ def get_careerjet_single_links(link):
 def get_careerjet_jobs(soup, time):
     global data
     data = DataDump.objects.all()
-    base_addr = "https://www.careerjet.it"
     divs = soup.find_all("div", class_="job display-new-job clickable")
     divs.append(soup.find("div", class_="job display-new-job clickable first"))
     res = {}
