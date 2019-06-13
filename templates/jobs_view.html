@@ -8,7 +8,7 @@
 
 {%  block content %}
     <div id="jobsWrap">
-        <ul>
+        <ol type="1">
             {%  for _,job in jobs.items %}
                 <li>
                     <h5>
@@ -19,6 +19,6 @@
                     <p style="font-size: small">{{ job.description }}</p>
                 </li>
             {% endfor %}
-        </ul>
+        </ol>
     </div>
 {% endblock %}

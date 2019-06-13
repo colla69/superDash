@@ -42,8 +42,9 @@ def get_careerjet_jobs(soup, time):
 
 
 def get_single_careerinfo(j_link):
-    single_job = data.filter(source=j_link).last()
-    page = BeautifulSoup(single_job.data, "html.parser")
-    description = page.find("div", class_="advertise_compact").text
-    location = page.find("div",class_="locations_compact").text
-    return description, location
+    sj = data.defer("data").filter(source=j_link).order_by("-time")
+    for single_job in sj:
+        page = BeautifulSoup(single_job.data, "html.parser")
+        description = page.find("div", class_="advertise_compact").text
+        location = page.find("div",class_="locations_compact").text
+        return description, location
