@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac397a43-3764-4df1-8800-af90ad454092" name="Default Changelist" comment="linkedin + mangafix">
+    <list default="true" id="ac397a43-3764-4df1-8800-af90ad454092" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myDashboard/utils/schedule_events.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/schedule_events.py" afterDir="false" />
     </list>
@@ -37,13 +37,6 @@
         <item name="MySQL - @colarietitosti.info" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="dashDB: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @colarietitosti.info" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dashDB: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="myDashboard_data_dump: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -287,7 +280,22 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f900ebb5" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f900ebb5" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@24dba50b" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f900ebb5" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1180bc37" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -329,21 +337,8 @@
       <workItem from="1560410007410" duration="22219000" />
       <workItem from="1560532650272" duration="1417000" />
       <workItem from="1560553880066" duration="1988000" />
-      <workItem from="1560843877373" duration="637000" />
-    </task>
-    <task id="LOCAL-00014" summary="one-punchman view added">
-      <created>1557261001722</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1557261001722</updated>
-    </task>
-    <task id="LOCAL-00015" summary="bnah view added">
-      <created>1557263008905</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1557263008905</updated>
+      <workItem from="1560843877373" duration="1249000" />
+      <workItem from="1561211383213" duration="5213000" />
     </task>
     <task id="LOCAL-00016" summary="new home design">
       <created>1557263022713</created>
@@ -674,7 +669,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560454496403</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="schedule changed">
+      <created>1560845498485</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1560845498486</updated>
+    </task>
+    <task id="LOCAL-00064" summary="bigger intervalls">
+      <created>1561220155246</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1561220155247</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TodoView">
@@ -703,8 +712,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="deactivated kijiji" />
-    <MESSAGE value="algo korr" />
     <MESSAGE value="logging removed" />
     <MESSAGE value="small changes to home and usability" />
     <MESSAGE value="redesign" />
@@ -728,7 +735,9 @@
     <MESSAGE value="performance for JobsView Improved" />
     <MESSAGE value="numbered list + small change single careejet" />
     <MESSAGE value="linkedin + mangafix" />
-    <option name="LAST_COMMIT_MESSAGE" value="linkedin + mangafix" />
+    <MESSAGE value="schedule changed" />
+    <MESSAGE value="bigger intervalls" />
+    <option name="LAST_COMMIT_MESSAGE" value="bigger intervalls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
