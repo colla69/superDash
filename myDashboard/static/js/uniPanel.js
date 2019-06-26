@@ -1,5 +1,5 @@
 
-
+let url = window.location.protocol + "//" + window.location.host + "/api/uniRest";
 let wrap = document.getElementById("wrap");
 let loader = document.getElementById("loader");
 
@@ -10,7 +10,7 @@ window.onload = function() {
     document.body.style.height = "-webkit-fill-available";
 
     let request = new XMLHttpRequest;
-    request.open("get","http://127.0.0.1:8000/api/uniRest");
+    request.open("get",url);
     request.onload = function () {
         let data = JSON.parse(request.responseText);
         console.log(data);
