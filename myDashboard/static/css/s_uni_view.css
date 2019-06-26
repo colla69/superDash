@@ -1,6 +1,6 @@
 
 body {
-    height: 100%;
+    height: -webkit-fill-available;
     width: -webkit-fill-available;
     background: linear-gradient(to bottom, rgb(33, 147, 176), rgb(109, 213, 237));
     margin-left: 15px;

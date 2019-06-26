@@ -43,7 +43,6 @@ function renderHTML(data) {
     wrap.style.display = "grid";
     document.body.style.height = "100%";
     wrap.style.height = "100%";
-
 }
 
 function makeContainer( header, ub, vl ) {
@@ -57,8 +56,7 @@ function makeContainer( header, ub, vl ) {
     container += "<p><a href=\""+header["files"]+"\" target=\"_blank\">Files</a></p>";
     container += "</div>";
 
-    container += " <div id=\"lists\">";
-
+    container += "<div id=\"lists\">";
     //ub
     container += "<ul>";
     for (let key in ub){
@@ -71,10 +69,9 @@ function makeContainer( header, ub, vl ) {
         container += "<li><div><a href=\""+vl[key]+"\" target=\"_blank\">"+key+"</a></div></li><br>";
     }
     container += "</ul>";
-    //lists
-    container += "</div>";
-    //wrap
     container += "</div>";
 
+    //wrap
+    container += "</div>";
     wrap.insertAdjacentHTML("beforeend",container)
 }
