@@ -1,16 +1,16 @@
-from django.shortcuts import render
-from .models import DashApps, DoneLinksLog
-import myDashboard.utils.uni.uni_data as uni
-import myDashboard.utils.manga.onepiece_getter as op
-import myDashboard.utils.manga.onepunchman_getter as opm
-import myDashboard.utils.manga.bokunoheroacademia_getter as bnha
-from myDashboard.forms import DoneReading
-from myDashboard.utils.myIpTools.ip_track import save_ip, get_last_ip
-from myDashboard.utils.jobs.jobData_handler import get_jobList
 from django.http import HttpResponse
+from django.shortcuts import render
+
+import myDashboard.api.utils.manga.bokunoheroacademia_getter as bnha
+import myDashboard.api.utils.manga.onepiece_getter as op
+import myDashboard.api.utils.manga.onepunchman_getter as opm
+from myDashboard.api.utils.jobs.jobData_handler import get_jobList
+from myDashboard.api.utils.myIpTools.ip_track import save_ip, get_last_ip
+from myDashboard.forms import DoneReading
+from .models import DashApps, DoneLinksLog
+
 
 # needed to start scheduler
-import myDashboard.utils.schedule_events
 
 
 def home_view(request, *args, **kwargs):
@@ -36,12 +36,7 @@ def ip_view(request, *args, **kwargs):
 
 
 def uni_view(request, *args, **kwargs):
-    data = uni.get_uni_data()
-    ctx = {
-        "VLs": data,
-    }
-    # print (data)
-    return render(request, "uniPanel.html", ctx)
+    return render(request, "uniPanel.html")
 
 
 def onepiece_view(request, *args, **kwargs):

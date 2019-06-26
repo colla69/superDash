@@ -14,11 +14,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+
 from myDashboard.views import home_view, uni_view, onepiece_view, \
     post_seen_op, onepunchman_view, post_seen_opm, bnha_view, post_seen_bnha, \
     ip_view, jobs_view
-
 
 urlpatterns = [
     path('admin/', admin.site.urls, name="admin"),
@@ -32,6 +32,7 @@ urlpatterns = [
     path('bnha/', bnha_view, name="bnha"),
     path('bnhaPost/', post_seen_bnha, name="bnhaPost"),
     path('jobSearch/', jobs_view, name="jobsView"),
+    path('api/', include('myDashboard.api.urls')),
 ]
 
 

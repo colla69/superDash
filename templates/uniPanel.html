@@ -4,8 +4,8 @@
     <title>uniDashboard</title>
 {% endblock %}
 
+<link rel="stylesheet" href="{% static 'css/loader.css' %}">
 {% block css %}
-    <link rel="stylesheet" href="{% static 'css/s_base_view.css' %}">
     <link rel="stylesheet" href="{% static 'css/s_uni_view.css' %}">
 {% endblock %}
 
@@ -58,4 +58,20 @@
     </div>
     {% endfor %}
     </div>
+
+    <div class="text-center">
+        <div class="loader" id="loader">
+            <br><br><br>
+            <div class="spinner-border" role="status">
+            <span class="sr-only">
+                Loading...
+            </span>
+            </div>
+            <br><br><br>
+            <p>I'm sorry for the loading time.. we are loggin into different University portals...</p>
+            <p>Universities are extremeeeely slooooowww...</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="{% static 'js/uniPanel.js' %}"></script>
+
 {% endblock %}

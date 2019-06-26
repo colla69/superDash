@@ -12,6 +12,8 @@ APP_TYPES = (
     (UTIL, 'util'),
     (TV, 'tv'),
 )
+
+
 class DashApps(models.Model):
 
     name = models.TextField(db_column='Name', max_length=100)  # Field name made lowercase.

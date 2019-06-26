@@ -2,14 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac397a43-3764-4df1-8800-af90ad454092" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myDashboard/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myDashboard/api/transport_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myDashboard/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myDashboard/api/utils/uni/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myDashboard/api/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myDashboard/static/css/loader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myDashboard/static/js/uniPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/687e72aa-d3cf-4ccb-954d-888598c10be5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/687e72aa-d3cf-4ccb-954d-888598c10be5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myDashboard/utils/schedule_events.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/utils/schedule_events.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/static/css/s_uni_view.css" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/static/css/s_uni_view.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/jobs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/jobs/careerjet.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/jobs/careerjet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/jobs/jobData_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/jobs/jobData_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/jobs/kijiji_jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/jobs/kijiji_jobs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/jobs/linkedin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/jobs/linkedin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/json_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/json_ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/manga/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/jobs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/manga/bokunoheroacademia_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/manga/bokunoheroacademia_getter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/manga/onepiece_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/manga/onepiece_getter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/manga/onepunchman_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/manga/onepunchman_getter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/myIpTools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/manga/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/myIpTools/ip_track.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/myIpTools/ip_track.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/myIpTools/site_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/myIpTools/site_checker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/save_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/save_sites.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/schedule_events.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/schedule_events.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/uni/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/myIpTools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/uni/algo_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/uni/algo_getter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/uni/lds_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/uni/lds_getter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/uni/promo_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/uni/promo_getter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/uni/rnvs_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/uni/rnvs_getter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/utils/uni/uni_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/api/utils/uni/uni_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myDashboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myDashboard/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superDash/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/superDash/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superDash/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/superDash/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/uniPanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/uniPanel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Django-2.2.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Django-2.2.1.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Django-2.2.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Django-2.2.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Django-2.2.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Django-2.2.1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Django-2.2.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/collapse.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/collapse.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/widgets/url.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/widgets/url.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/admin/widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/postgres/aggregates/mixins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/postgres/aggregates/mixins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/postgres/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/contrib/postgres/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/template/defaultfilters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/template/defaultfilters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/utils/autoreload.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/utils/autoreload.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -32,38 +96,22 @@
         <item name="MySQL - @colarietitosti.info" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @colarietitosti.info" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dashDB: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @colarietitosti.info" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="myBase: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="superDash" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>kap</find>
-      <find>gba</find>
-      <find>tracker</find>
-      <find>new_ip = IpLog.objects.create( time=datetime.now())</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,7 +131,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myDashboard/api/utils/uni" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -96,19 +144,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/myDashboard/utils/jobs" />
-      <recent name="$PROJECT_DIR$/myDashboard/utils/myIpTools" />
-      <recent name="$PROJECT_DIR$/myDashboard/utils/manga" />
-      <recent name="$PROJECT_DIR$/myDashboard/utils" />
-      <recent name="$PROJECT_DIR$/myDashboard" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myDashboard/api/utils/uni" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/myDashboard/migrations" />
       <recent name="$PROJECT_DIR$/myDashboard/utils" />
       <recent name="$PROJECT_DIR$/myDashboard/static/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myDashboard/static/js" />
+      <recent name="$PROJECT_DIR$/myDashboard/api/utils/uni" />
+      <recent name="$PROJECT_DIR$/myDashboard/static" />
       <recent name="$PROJECT_DIR$/myDashboard" />
+      <recent name="$PROJECT_DIR$/myDashboard/api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -283,17 +331,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f900ebb5" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f900ebb5" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@24dba50b" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f900ebb5" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1180bc37" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b325cf1a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -339,34 +377,8 @@
       <workItem from="1560553880066" duration="1988000" />
       <workItem from="1560843877373" duration="1249000" />
       <workItem from="1561211383213" duration="5213000" />
-    </task>
-    <task id="LOCAL-00016" summary="new home design">
-      <created>1557263022713</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1557263022713</updated>
-    </task>
-    <task id="LOCAL-00017" summary="tv channels added">
-      <created>1557265064482</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1557265064482</updated>
-    </task>
-    <task id="LOCAL-00018" summary="new docker-compose.yaml and Dockerfile for distribution">
-      <created>1557319606494</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1557319606494</updated>
-    </task>
-    <task id="LOCAL-00019" summary="dash online :)">
-      <created>1557327271999</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1557327271999</updated>
+      <workItem from="1561486194740" duration="10888000" />
+      <workItem from="1561548149930" duration="20365000" />
     </task>
     <task id="LOCAL-00020" summary="promo getter login funcitonal">
       <created>1557575325009</created>
@@ -683,17 +695,36 @@
       <option name="project" value="LOCAL" />
       <updated>1561220155247</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="fix high cpu on idle">
+      <created>1561486277579</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1561486277580</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Debug turned off for production mode">
+      <created>1561530813658</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1561530813658</updated>
+    </task>
+    <task id="LOCAL-00067" summary="new SECRET KEY added and hidden .. going to production mode :)">
+      <created>1561531085242</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1561531085242</updated>
+    </task>
+    <task id="LOCAL-00068" summary="fix static content">
+      <created>1561561160383</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1561561160384</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -712,10 +743,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="logging removed" />
-    <MESSAGE value="small changes to home and usability" />
-    <MESSAGE value="redesign" />
-    <MESSAGE value="ip track implemented" />
     <MESSAGE value="upsi" />
     <MESSAGE value="maybe" />
     <MESSAGE value="now!" />
@@ -737,34 +764,33 @@
     <MESSAGE value="linkedin + mangafix" />
     <MESSAGE value="schedule changed" />
     <MESSAGE value="bigger intervalls" />
-    <option name="LAST_COMMIT_MESSAGE" value="bigger intervalls" />
+    <MESSAGE value="fix high cpu on idle" />
+    <MESSAGE value="Debug turned off for production mode" />
+    <MESSAGE value="new SECRET KEY added and hidden .. going to production mode :)" />
+    <MESSAGE value="fix static content" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix static content" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/superDash/urls.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/myDashboard/utils/uni/lds_getter.py</url>
+          <url>file://$PROJECT_DIR$/myDashboard/api/utils/uni/lds_getter.py</url>
           <line>15</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/myDashboard/utils/uni/rnvs_getter.py</url>
+          <url>file://$PROJECT_DIR$/myDashboard/api/utils/uni/rnvs_getter.py</url>
           <line>20</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/myDashboard/models.py</url>
-          <line>67</line>
+          <line>69</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="django-line">
           <url>file://$PROJECT_DIR$/templates/uniPanel.html</url>
-          <line>6</line>
+          <line>7</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

@@ -1,2 +1,3 @@
 superDash/psw.py
 *.pyc
+.idea/*
