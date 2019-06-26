@@ -11,52 +11,6 @@
 
 {% block content %}
     <div id="wrap">
-    {% for key, value in VLs.items %}
-        <div id="unilink">
-        <h3>{{ value.0 }}</h3>
-        <div id="links" style="width: 100%">
-        <p><a href="{{ value.0.link }}" target="_blank">
-            UniPortal
-        </a></p>
-        {%  if value.0.homepage != "" %}
-        <p><a href="{{ value.0.homepage }}" target="_blank">
-            Homepage
-        </a></p>
-        {%  endif %}
-        {%  if value.0.uebungen != "" %}
-        <p><a href="{{ value.0.uebungen }}" target="_blank">
-            Übungen
-        </a></p>
-        {%  endif %}
-        {%  if value.0.cloudlink != "" %}
-        <p><a href="{{ value.0.cloudlink }}" target="_blank">
-            Files
-        </a></p>
-        {%  endif %}
-        </div>
-        <ul>
-        {%  if value.1 != "" %}
-            <li>
-            {% for k,value in value.1.items %}
-                <div>
-                    <a href="{{ value }}" target="_blank">{{ k }}</a>
-                </div>
-            {% endfor %}
-            </li>
-        {%  endif %}
-        {%  if value.2 != "" %}
-            <li id="admin">
-            {% for k,value in value.2.items %}
-                <div>
-                    <a href="{{ value }}" target="_blank">{{ k }}</a>
-                    <br>
-                </div>
-            {% endfor %}
-            </li>
-        {%  endif %}
-        </ul>
-    </div>
-    {% endfor %}
     </div>
 
     <div class="text-center">
@@ -72,6 +26,7 @@
             <p>Universities are extremeeeely slooooowww...</p>
         </div>
     </div>
+
     <script type="text/javascript" src="{% static 'js/uniPanel.js' %}"></script>
 
 {% endblock %}
