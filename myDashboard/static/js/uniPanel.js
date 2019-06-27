@@ -53,7 +53,7 @@ function makeContainer( header, ub, vl ) {
     container += "<p><a href=\""+header["link"]+"\" target=\"_blank\">UniPortal</a></p>";
     container += "<p><a href=\""+header["homepage"]+"\" target=\"_blank\">Homepage</a></p>";
     container += "<p><a href=\""+header["uebungen"]+"\" target=\"_blank\">Übungen</a></p>";
-    container += "<p><a href=\""+header["files"]+"\" target=\"_blank\">Files</a></p>";
+    container += "<p><a href=\""+header["cloudlink"]+"\" target=\"_blank\">Files</a></p>";
     container += "</div>";
 
     container += "<div id=\"lists\">";
