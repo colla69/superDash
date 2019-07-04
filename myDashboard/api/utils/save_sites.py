@@ -1,8 +1,7 @@
-
 import mechanicalsoup
 from django.utils import timezone
 
-from myDashboard import DataDump
+from myDashboard.models import DataDump
 from .jobs.careerjet import get_careerjet_single_links
 from .jobs.linkedin import save_linkedin
 
@@ -32,4 +31,4 @@ def save_HTML_dump():
             time=timezone.now(),
             source=link,
             data=str(page)
-    )
+        )

@@ -10,12 +10,13 @@ def start_job():
     global job
     print("starting scheduled jobs.. ")
     # scheduler.add_job(check_online, 'interval', seconds=3600)
-    scheduler.add_job(save_HTML_dump, 'interval', seconds=3600)
+    scheduler.add_job(save_HTML_dump, 'interval', seconds=3600*3)
     save_HTML_dump()
     try:
         scheduler.start()
     except:
         pass
     print("done!\n")
+
 
 start_job()
