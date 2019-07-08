@@ -17,5 +17,3 @@ def start_job():
     except:
         pass
 
-
-start_job()

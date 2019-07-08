@@ -19,10 +19,9 @@ def add_carrer_jet():
 
 
 def save_HTML_dump():
-    print("saving websites")
+    print("saving websites ... ", end="")
     save_linkedin()
     add_carrer_jet()
-
     browser = mechanicalsoup.StatefulBrowser()
     for link in links:
         browser.open(link)
@@ -32,3 +31,4 @@ def save_HTML_dump():
             source=link,
             data=str(page)
         )
+    print("done !")

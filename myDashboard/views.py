@@ -8,9 +8,11 @@ from myDashboard.api.utils.jobs.jobData_handler import get_jobList
 from myDashboard.api.utils.myIpTools.ip_track import save_ip, get_last_ip
 from myDashboard.forms import DoneReading
 from .models import DashApps, DoneLinksLog
-
-
 # needed to start scheduler
+from .schedule_events import start_job
+
+start_job()
+
 
 def home_view(request, *args, **kwargs):
     apps = DashApps.objects.all()
