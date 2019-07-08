@@ -12,7 +12,6 @@ from .models import DashApps, DoneLinksLog
 
 # needed to start scheduler
 
-
 def home_view(request, *args, **kwargs):
     apps = DashApps.objects.all()
     ctx = {
