@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from django.http import HttpResponse
 from django.shortcuts import render
 
@@ -26,8 +28,6 @@ def home_view(request, *args, **kwargs):
 def ip_view(request, *args, **kwargs):
     print("pingHome")
     try:
-        # for k in request.META.keys():
-        #     print(k + " " +request.META[k])
         client_address = request.META['HTTP_X_REAL_IP']
     except:
         client_address = ""

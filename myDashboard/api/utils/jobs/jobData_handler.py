@@ -1,3 +1,5 @@
+import operator
+
 from bs4 import BeautifulSoup
 
 from myDashboard.api.utils.jobs.careerjet import get_careerjet_jobs
@@ -6,7 +8,7 @@ from myDashboard.api.utils.jobs.linkedin import get_linkedin_jobs
 from myDashboard.models import DataDump
 
 kijiji = "https://www.kijiji.it/offerte-di-lavoro/offerta/annunci-bologna/informatica-e-web/"
-careerjet = "https://www.careerjet.it/wcerca/lavoro?s=programmatore&l=Bologna&lid=41991&ct=p&nw=1"
+careerjet = "https://www.careerjet.it/cerca/lavoro?s=programmatore&l=Bologna&lid=41991&ct=p&nw=1"
 linkedin = "https://it.linkedin.com/"
 
 
@@ -37,3 +39,20 @@ def get_jobList():
             continue
     return res
 
+
+def cleanup_data_duplicates():
+    print("starting cleanup .. ", end="")
+    res = {}
+    datalist = {}
+    datalist = DataDump.objects.all()
+    ordered = sorted(datalist, key=operator.attrgetter('time'), reverse=True)
+    known = []
+    count = 0
+    for o in ordered:
+        if o.source in known:
+            o.delete()
+            count += 1
+            continue
+        else:
+            known.append(o.source)
+    print("done!  deleted: "+str(count)+" lines")

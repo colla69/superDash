@@ -1,6 +1,7 @@
 import mechanicalsoup
-from myDashboard.models import DataDump
 from bs4 import BeautifulSoup
+
+from myDashboard.models import DataDump
 
 base_addr = "https://www.careerjet.it"
 
@@ -24,19 +25,22 @@ def get_careerjet_jobs(soup, time):
     divs.append(soup.find("div", class_="job display-new-job clickable first"))
     res = {}
     for div in divs:
-        title_div = div.find("a", class_="title-company")
-        j_link = base_addr + title_div["href"]
-        if not j_link in res.keys():
-            title = title_div.text
-            description, location = get_single_careerinfo(j_link)
-            res[j_link] = {
-                "title": title,
-                "link": j_link,
-                "description": description,
-                "location": location,
-                "site": "careerjet.it",
-                "time": time,
-            }
+        try:
+            title_div = div.find("a", class_="title-company")
+            j_link = base_addr + title_div["href"]
+            if not j_link in res.keys():
+                title = title_div.text
+                description, location = get_single_careerinfo(j_link)
+                res[j_link] = {
+                    "title": title,
+                    "link": j_link,
+                    "description": description,
+                    "location": location,
+                    "site": "careerjet.it",
+                    "time": time,
+                }
+        except:
+            continue
     return res
 
 

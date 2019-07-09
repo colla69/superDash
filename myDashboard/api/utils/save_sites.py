@@ -5,7 +5,7 @@ from myDashboard.models import DataDump
 from .jobs.careerjet import get_careerjet_single_links
 from .jobs.linkedin import save_linkedin
 
-careerjet = "https://www.careerjet.it/wcerca/lavoro?s=programmatore&l=Bologna&lid=41991&ct=p&nw=1"
+careerjet = "https://www.careerjet.it/cerca/lavoro?s=programmatore&l=Bologna&lid=41991&ct=p&nw=1"
 links = [
     "https://www.kijiji.it/offerte-di-lavoro/offerta/annunci-bologna/informatica-e-web/",
     careerjet,
@@ -13,7 +13,7 @@ links = [
 
 
 def add_carrer_jet():
-    c_links = get_careerjet_single_links("https://www.careerjet.it/wcerca/lavoro?s=programmatore&l=Bologna&lid=41991&ct=p&nw=1")
+    c_links = get_careerjet_single_links("https://www.careerjet.it/cerca/lavoro?s=programmatore&l=Bologna&lid=41991&ct=p&nw=1")
     for l in c_links:
         links.append(l)
 
@@ -29,6 +29,6 @@ def save_HTML_dump():
         DataDump.objects.create(
             time=timezone.now(),
             source=link,
-            data=str(page)
+            data=str(page.prettify()).encode("utf-8").decode("utf-8")
         )
-    print("done !")
+    print("done!")

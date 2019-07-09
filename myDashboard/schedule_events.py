@@ -12,6 +12,7 @@ def start_job():
     # scheduler.add_job(check_online, 'interval', seconds=3600)
     scheduler.add_job(save_HTML_dump, 'interval', seconds=10800)
     #save_HTML_dump()
+    #cleanup_data_duplicates()
     try:
         scheduler.start()
     except:
