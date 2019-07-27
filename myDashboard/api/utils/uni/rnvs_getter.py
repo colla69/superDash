@@ -5,6 +5,7 @@ from superDash.psw import uni_psw
 
 homepage = "http://www.nm.ifi.lmu.de/teaching/Vorlesungen/2019ss/rn/"
 home = "https://uniworx.ifi.lmu.de/"
+# sofaproblem
 
 # uebungen
 def get_uebungen():

@@ -29,6 +29,6 @@ def save_HTML_dump():
         DataDump.objects.create(
             time=timezone.now(),
             source=link,
-            data=str(page.prettify()).encode("utf-8").decode("utf-8")
+            data=str(page)
         )
     print("done!")

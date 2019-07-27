@@ -1,3 +1,4 @@
 superDash/psw.py
 *.pyc
 .idea/*
+venv/*

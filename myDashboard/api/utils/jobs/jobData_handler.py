@@ -17,11 +17,15 @@ def get_jobList():
     datalist = {}
     count = DataDump.objects.all().count()  # 1 million
     chunk_size = 500
-    for i in range(0, count, chunk_size):
-        joblist = DataDump.objects.defer("data").order_by("-time")[i:i+chunk_size]
-        for job in joblist:
-            if not job.source in datalist.keys():
-                data = BeautifulSoup(job.data, "html.parser")
+    joblist = DataDump.objects.defer("data").order_by("-time")
+    # joblist = joblist[:50]
+    """for i in range(0, count, chunk_size):
+        joblist = DataDump.objects.defer("data").order_by("-time")[i:i+chunk_size]"""
+    for job in joblist[:100]:
+        if job.source not in datalist.keys():
+            html_data = job.data
+            if "python" in html_data:
+                data = BeautifulSoup(html_data, "html.parser")
                 datalist[job.source] = job.time, data
     for key, job in datalist.items():
         time = job[0]
