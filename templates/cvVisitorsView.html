@@ -1,0 +1,65 @@
+
+{% extends "base_view.html" %}
+{% load static %}
+{% block title %}
+    <title>CV Visitors</title>
+{% endblock %}
+
+{% block content %}
+
+    <H2>This IPs visited cv.colarietitosti.info</H2>
+    <br>
+    <div id="wrap" style="display: inline">
+         {% for vis in ips %}
+             <div id="visitor">
+              <h4>
+                  {{ vis.3 }}  ---  {{ vis.0 }}<br>
+                  <h5>
+                      Locale: {{ vis.1 }} <br>
+                      <button style="background-color: lightblue;
+                                    border-radius: 5px;
+                                    -moz-border-radius: 5px;
+                                    -webkit-border-radius: 5px;
+                                    border: 1px none #000000;
+                                    margin-top: 3px;
+                       ">
+                        <a style="color: darkblue" href={{ vis.4 }} target="_blank">locate</a>
+                      </button>
+                      <button style="background-color: lightblue;
+                                    border-radius: 5px;
+                                    -moz-border-radius: 5px;
+                                    -webkit-border-radius: 5px;
+                                    border: 1px none #000000;
+                                    margin-top: 3px;
+                       ">
+                        <a style="color: darkblue" href={{ vis.5 }} target="_blank">Who Is</a>
+                      </button>
+                      <button style="background-color: lightblue;
+                                    border-radius: 5px;
+                                    -moz-border-radius: 5px;
+                                    -webkit-border-radius: 5px;
+                                    border: 1px none #000000;
+                                    margin-top: 3px;
+                       ">
+                        <a style="color: darkblue" href={{ vis.6 }} target="_blank">Reverse DNS</a>
+                      </button>
+                      <button style="background-color: lightblue;
+                                    border-radius: 5px;
+                                    -moz-border-radius: 5px;
+                                    -webkit-border-radius: 5px;
+                                    border: 1px none #000000;
+                                    margin-top: 3px;
+                       ">
+                        <a style="color: darkblue" href={{ vis.7 }} target="_blank">Port Scan</a>
+                      </button>
+                  </h5>
+              </h4>
+             </div>
+             <br>
+         {% endfor %}
+    </div>
+
+
+
+    <script type="text/javascript" src="{% static 'js/cvVisitors.js' %}"></script>
+{% endblock %}

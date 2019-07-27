@@ -18,7 +18,7 @@ from django.urls import path, include
 
 from myDashboard.views import home_view, uni_view, onepiece_view, \
     post_seen_op, onepunchman_view, post_seen_opm, bnha_view, post_seen_bnha, \
-    ip_view, jobs_view
+    ip_view, jobs_view, visitors_view
 
 urlpatterns = [
     path('admin/', admin.site.urls, name="admin"),
@@ -33,6 +33,7 @@ urlpatterns = [
     path('bnhaPost/', post_seen_bnha, name="bnhaPost"),
     path('jobSearch/', jobs_view, name="jobsView"),
     path('api/', include('myDashboard.api.urls')),
+    path('cvvisitors/', visitors_view, name="cvvisitors"),
 ]
 
 

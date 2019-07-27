@@ -15,16 +15,16 @@ linkedin = "https://it.linkedin.com/"
 def get_jobList():
     res = {}
     datalist = {}
-    count = DataDump.objects.all().count()  # 1 million
+    count = DataDump.objects.all().count()
     chunk_size = 500
     joblist = DataDump.objects.defer("data").order_by("-time")
     # joblist = joblist[:50]
     """for i in range(0, count, chunk_size):
         joblist = DataDump.objects.defer("data").order_by("-time")[i:i+chunk_size]"""
-    for job in joblist[:100]:
+    for job in joblist[:60]:
         if job.source not in datalist.keys():
             html_data = job.data
-            if "python" in html_data:
+            if True:  # "python" in html_data:
                 data = BeautifulSoup(html_data, "html.parser")
                 datalist[job.source] = job.time, data
     for key, job in datalist.items():
