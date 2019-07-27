@@ -16,24 +16,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from myDashboard.views import home_view, uni_view, onepiece_view, \
-    post_seen_op, onepunchman_view, post_seen_opm, bnha_view, post_seen_bnha, \
-    ip_view, jobs_view, visitors_view
+from myDashboard.views import home_view, jobs_view, uni_view
 
 urlpatterns = [
     path('admin/', admin.site.urls, name="admin"),
     path('', home_view, name="home"),
-    path('ip/', ip_view, name="ip"),
-    path('uni/', uni_view, name="uni"),
-    path('op/', onepiece_view, name="op"),
-    path('opPost/', post_seen_op, name="opPost"),
-    path('opm/', onepunchman_view, name="opm"),
-    path('opmPost/', post_seen_opm, name="opmPost"),
-    path('bnha/', bnha_view, name="bnha"),
-    path('bnhaPost/', post_seen_bnha, name="bnhaPost"),
-    path('jobSearch/', jobs_view, name="jobsView"),
-    path('api/', include('myDashboard.api.urls')),
-    path('cvvisitors/', visitors_view, name="cvvisitors"),
-]
 
+    path('uni/', uni_view, name="uni"),
+    path('jobSearch/', jobs_view, name="jobsView"),
+
+    path('api/', include('myDashboard.api.urls')),
+    path('', include('myDashboard.api.utils.manga.urls')),
+    path('', include('myDashboard.api.utils.myIpTools.urls')),
+]
 
