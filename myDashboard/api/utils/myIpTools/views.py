@@ -8,10 +8,9 @@ from myDashboard.api.utils.manga.views import *
 from myDashboard.api.utils.myIpTools.ip_track import save_ip
 from myDashboard.api.utils.myIpTools.viewDNS_endpoints import *
 from myDashboard.models import IpLog
-# needed to start scheduler
-from myDashboard.schedule_events import start_job
 
-start_job()
+
+# needed to start scheduler
 
 
 def ip_view(request, *args, **kwargs):

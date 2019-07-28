@@ -30,6 +30,7 @@ def get_jobList():
     for key, job in datalist.items():
         time = job[0]
         soup = job[1]
+        jobs = {}
         if kijiji == key:
             jobs = get_kiji(soup, time)
         elif careerjet == key:
@@ -37,10 +38,13 @@ def get_jobList():
         elif linkedin in key:
             jobs = get_linkedin_jobs(soup, time, key)
         try:
-            for j in jobs.keys():
-                res[j] = jobs[j]
-        except UnboundLocalError:
+            if jobs:
+                for j in jobs.keys():
+                    res[j] = jobs[j]
+        except UnboundLocalError as e:
+            print(e)
             continue
+    print(res)
     return res
 
 
