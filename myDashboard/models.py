@@ -15,7 +15,6 @@ APP_TYPES = (
 
 
 class DashApps(models.Model):
-
     name = models.TextField(db_column='Name', max_length=100)  # Field name made lowercase.
     link = models.TextField(max_length=500, blank=True, null=True)
     img_link = models.TextField(max_length=500, blank=True, null=True)
@@ -37,8 +36,6 @@ class UniLink(models.Model):
     uebungen = models.TextField(max_length=500, blank=True, null=True)
     cloudlink = models.TextField(max_length=500, blank=True, null=True)
 
-# log seen links
-class DoneLinksLog(models.Model):
     def __str__(self):
         return self.name
 
