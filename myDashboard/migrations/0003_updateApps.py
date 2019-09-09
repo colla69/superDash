@@ -8,7 +8,6 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('myDashboard', '0001_initial'),
         ('myDashboard', '0002_unilinks'),
     ]
 

@@ -8,18 +8,17 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('myDashboard', '0006_checkSitesLog'),
+        ('myDashboard', '0007_data_dump'),
 
     ]
 
     operations = [
         migrations.CreateModel(
-            name='jobs_dump',
+            name='jobs_rating',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('source', models.TextField()),
-                ('time', models.DateTimeField()),
-                ('data', models.TextField()),
+                ('job_id', models.IntegerField()),
+                ('rate', models.IntegerField()),
             ],
         )
     ]

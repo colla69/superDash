@@ -16,16 +16,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from myDashboard.views import home_view, jobs_view, uni_view
+from myDashboard.views import home_view,  uni_view
 
 urlpatterns = [
     path('admin/', admin.site.urls, name="admin"),
     path('', home_view, name="home"),
 
     path('uni/', uni_view, name="uni"),
-    path('jobSearch/', jobs_view, name="jobsView"),
 
     path('api/', include('myDashboard.api.urls')),
+    path('', include('myDashboard.api.utils.jobs.urls')),
     path('', include('myDashboard.api.utils.manga.urls')),
     path('', include('myDashboard.api.utils.myIpTools.urls')),
 ]

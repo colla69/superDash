@@ -2,7 +2,6 @@
 
 from django.shortcuts import render
 
-from myDashboard.api.utils.jobs.jobData_handler import get_jobList
 from myDashboard.api.utils.myIpTools.ip_track import get_last_ip
 from .models import DashApps
 from .schedule_events import start_job

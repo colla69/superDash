@@ -37,6 +37,8 @@ class UniLink(models.Model):
     uebungen = models.TextField(max_length=500, blank=True, null=True)
     cloudlink = models.TextField(max_length=500, blank=True, null=True)
 
+# log seen links
+class DoneLinksLog(models.Model):
     def __str__(self):
         return self.name
 
@@ -93,4 +95,15 @@ class DataDump(models.Model):
 
     class Meta:
         managed = False
-        db_table = 'myDashboard_data_dump'
+        db_table = 'myDashboard_jobs_dump'
+
+class JobsRating(models.Model):
+    job_id = models.IntegerField()
+    rate = models.IntegerField()
+
+    def __str__(self):
+        return self.job_id
+
+    class Meta:
+        managed = False
+        db_table = 'myDashboard_Jobs_rating'

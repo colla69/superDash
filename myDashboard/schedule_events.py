@@ -19,4 +19,3 @@ def start_job():
         scheduler.start()
     except:
         pass
-

@@ -13,4 +13,3 @@ def save_ip(new_ip):
 
 def get_last_ip():
     return IpLog.objects.last().ip
-

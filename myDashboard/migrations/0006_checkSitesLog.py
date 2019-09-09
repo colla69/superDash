@@ -8,11 +8,6 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('myDashboard', '0001_initial'),
-        ('myDashboard', '0002_unilinks'),
-        ('myDashboard', '0003_updateApps'),
-        ('myDashboard', '0004_logSeen'),
-        ('myDashboard', '0005_ipLog'),
         ('myDashboard', '0005_ipLog_corr'),
     ]
 

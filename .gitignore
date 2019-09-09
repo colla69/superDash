@@ -1,4 +1,6 @@
 superDash/psw.py
 *.pyc
-.idea/*
-venv/*
+.idea/
+venv/
+superDash/__pycache__/
+myDashboard/__pycache__/
