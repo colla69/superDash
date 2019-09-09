@@ -1,8 +1,8 @@
 from django.urls import path
-from myDashboard.api.utils.jobs.views import jobs_view
+from myDashboard.api.utils.jobs.views import jobs_view,good_job
 
 
 urlpatterns = [
     path('jobSearch/', jobs_view, name="jobsView"),
-    # path('goodJob/', post_seen_op, name="opPost"),
+    path('postGJ/', good_job, name="postGJ"),
 ]

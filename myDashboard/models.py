@@ -95,7 +95,7 @@ class DataDump(models.Model):
         db_table = 'myDashboard_jobs_dump'
 
 class JobsRating(models.Model):
-    job_id = models.IntegerField()
+    job_id = models.TextField()
     rate = models.IntegerField()
 
     def __str__(self):
@@ -103,4 +103,4 @@ class JobsRating(models.Model):
 
     class Meta:
         managed = False
-        db_table = 'myDashboard_Jobs_rating'
+        db_table = 'myDashboard_jobs_rating'

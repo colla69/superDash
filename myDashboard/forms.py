@@ -13,9 +13,9 @@ class DoneReading(forms.ModelForm):
 
 
 class JobsRatingForm(forms.ModelForm):
-    j_id = forms.IntegerField(widget=forms.HiddenInput())
-    rating = forms.IntegerField(widget=forms.HiddenInput())
+    job_id = forms.CharField(widget=forms.HiddenInput())
+    rate = forms.IntegerField(widget=forms.HiddenInput())
 
     class Meta:
         model = JobsRating
-        fields = ('j_id', 'rating')
+        fields = ('job_id', 'rate')

@@ -44,7 +44,6 @@ def get_jobList():
         except UnboundLocalError as e:
             print(e)
             continue
-    print(res)
     return res
 
 

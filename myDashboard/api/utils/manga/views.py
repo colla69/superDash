@@ -59,7 +59,6 @@ def bnha_view(request, *args, **kwargs):
 
 def post_seen_bnha(request):
     form = DoneReading(request.POST or None)
-    print(form)
     if form.is_valid():
         form.save()
     read_chap = get_read_chapters(bnha.get_bokunoheroacademiaManga())

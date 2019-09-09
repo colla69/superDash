@@ -11,10 +11,26 @@
         <ol type="1">
             {%  for _,job in jobs.items %}
                 <li>
-                    <h5>
-                          <a href="{{ job.link }}" target="_blank" style="color:darkblue">
+                    <h5><a href="{{ job.link }}" target="_blank" style="color:darkblue">
                             {{ job.title }}
-                        </a> a {{ job.location }} ------ {{ job.site }} ------ {{ job.time }}
+                        </a> {{ job.location }} ------ {{ job.site }} ------ {{ job.time }}
+                        <div style="display: -webkit-inline-box;">
+                        <form action="/postGJ/" method="post"> {% csrf_token %}
+                            <input type="hidden" name="job_id" id="id_job_id" value="{{ job.link }}">
+                            <input type="hidden" name="rate" id="id_rate" value="3">
+                            <button type="submit">GOOD</button>
+                        </form>
+                        <form action="/postGJ/" method="post"> {% csrf_token %}
+                            <input type="hidden" name="job_id" id="id_job_id"  value="{{ job.link }}">
+                            <input type="hidden" name="rate" id="id_rate" value="2">
+                            <button type="submit">MEH</button>
+                        </form>
+                        <form action="/postGJ/" method="post"> {% csrf_token %}
+                            <input type="hidden" name="job_id" id="id_job_id"  value="{{ job.link }}">
+                            <input type="hidden" name="rate" id="id_rate" value="1">
+                            <button type="submit">BAD</button>
+                        </form>
+                      </div>
                     </h5>
                     <p style="font-size: larger">{{ job.description }}</p>
                 </li>

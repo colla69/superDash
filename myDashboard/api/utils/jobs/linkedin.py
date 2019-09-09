@@ -9,7 +9,11 @@ link = "https://www.linkedin.com/jobs/search/?distance=25&f_F=it%2Ceng&location=
 
 def get_linkedin_jobs(soup, time, link):
     res = {}
-    title = soup.find("h1").text
+    try:
+        title = soup.find("h1").text
+    except:
+        return res
+        title = ""
     description = soup.find("div", class_="description__text").text
     location = soup.find("span", class_="topbar__company-info-meta").text
     res[link] = {
