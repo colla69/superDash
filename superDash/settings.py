@@ -83,6 +83,7 @@ DATABASES = {
         'PASSWORD': psw(),
         'HOST': 'colarietitosti.info',
         'PORT': '3306',
+        'CONN_MAX_AGE': 3600,
     }
 }
 
