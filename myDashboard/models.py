@@ -17,7 +17,7 @@ APP_TYPES = (
 class DashApps(models.Model):
     name = models.TextField(db_column='Name', max_length=100)  # Field name made lowercase.
     link = models.TextField(max_length=500, blank=True, null=True)
-    img_link = models.TextField(max_length=500, blank=True, null=True)
+    img_link = models.TextField(blank=True, null=True)
     type = models.CharField(db_column='Type', max_length=20, choices=APP_TYPES, default=APP)
 
     def __str__(self):
