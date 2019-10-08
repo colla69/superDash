@@ -28,7 +28,6 @@ def visitors_view(request, *args, **kwargs):
     myIpsQS = IpLog.objects.all().values_list("ip", flat=True)
     myIps = [i for i in myIpsQS]
     myIps.append("127.0.0.1")
-    myIps.append("66.249.79.248")
     myIps.append("172.27.0.1")
     myIps.append("66.249.70.5")
     myIps.append("0:0:0:0:0:0:0:1")
@@ -38,7 +37,7 @@ def visitors_view(request, *args, **kwargs):
     ctx = { "ips": []}
     for k in reversed(ips):
         ipaddr = k["ip_addr"]
-        if ipaddr in myIps or ipaddr == "":
+        if ipaddr in myIps or ipaddr.startswith("66") or ipaddr == "":
             continue
         else:
             timestamp = k["timestamp"]
